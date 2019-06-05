@@ -1,2 +1,4 @@
-# cas-data-vis-wp
-CAS Data Visualization Working Party
+# CAS Data Visualization Working Party
+
+## Work Stream 1
+Fundamentals of data visualization
