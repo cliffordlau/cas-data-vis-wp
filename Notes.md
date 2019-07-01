@@ -16,3 +16,4 @@ By what you want to show
 - [Financial Time's Visual Vocabulary](https://ft.com/vocabulary)
 
 Nathan Yau's idea of [reducing abstraction](https://flowingdata.com/2016/09/14/shorten-the-visualization-path-back-to-reality/)
+Storytelling with John D
