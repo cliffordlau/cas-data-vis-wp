@@ -5,9 +5,9 @@ Work Stream 1 – Fundamentals
 Test… (cliff) (john)
 
 1.	Introduction to Data Visualization
-	A.	Definition of “Data Viz”
-	B.	Background (Brief)
-	C.	Why Actuaries Need to Know Data Visualization basics
+		A.	Definition of “Data Viz”
+		B.	Background (Brief)
+		C.	Why Actuaries Need to Know Data Visualization basics
 2.	Consider the Audience
     A.	Things to Consider about the Audience
         i.	What is their role? What is their background?
