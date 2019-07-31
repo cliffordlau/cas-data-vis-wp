@@ -1,0 +1,29 @@
+---
+output: word_document
+---
+
+```{r include = FALSE}
+library(tidyverse)
+library(bib2df)
+
+knitr::opts_chunk$set(
+  echo = FALSE
+  , message = FALSE
+)
+```
+
+# References
+
+Hey, look, references!
+
+```{r }
+tbl_ref <- bib2df('references.bib') %>% 
+  rename_all(tolower) 
+
+tbl_ref %>% 
+  select(
+    category, title, author
+  ) %>% 
+  knitr::kable()
+```
+
