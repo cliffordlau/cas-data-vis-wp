@@ -26,7 +26,7 @@
 		* Heatmap colors by magnitude
 	* Line
 	* Bar
-			* Start at zero
+		* Start at zero
 	* Scatterplot
 	* Box & Whisker, Violin
 	* Map
@@ -34,18 +34,18 @@
 	* Sparklines
 	* Nodes and Connections
 	* Visualizations to Avoid
-			* Pie and Donuts
-			* 3D
-			* Double-Axis
+		* Pie and Donuts
+		* 3D
+		* Double-Axis
 4. How to Design the Visualization
 	* Default settings are usually poor data viz
 	* How to Simplify
-			* High Data-to-Ink Ratio
-			* Remove or use gray to tone-down Borders, Axes, Gridlines, tick marks 
-			* Combine Title and the Message, or callout box for the Message
-			* Short Axis names
-			* No vertical text
-			* Approx. 2:1 for length:width aspect ratio
+		* High Data-to-Ink Ratio
+		* Remove or use gray to tone-down Borders, Axes, Gridlines, tick marks 
+		* Combine Title and the Message, or callout box for the Message
+		* Short Axis names
+		* No vertical text
+		* Approx. 2:1 for length:width aspect ratio
 	* How to Make the Data ‘POP’
 		* cognitive load; short-term memory
 		* Pre-attentive Attributes and Gestalt principles…
