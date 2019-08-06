@@ -43,6 +43,13 @@ This will clone the repo to a location on your desktop and then you can use what
 
 ![](figures/github_guide/github_guide_03.png)
 
-Once you've done your updates, you can just commit the changes you've made like you've done on the Github website. The only additional thing you have to do is **push** your changes up
+Once you've done your updates, you then
+
+1. Stage the changes you want to commit by checking the files you want to include in this commit
+2. Put in your commit message
+3. Click commit
+4. Push the changes to the Github repo
 
 ![](figures/github_guide/github_guide_02.png)
+
+For more on how Git works, see [here](https://git-scm.com)
