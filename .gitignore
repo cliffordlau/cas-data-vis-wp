@@ -1,3 +1,4 @@
 .DS*
 .Rproj.user
 *.docx
+.Rhistory
