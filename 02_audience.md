@@ -2,7 +2,9 @@
 
 ## Things to consider
 
-1. What is their role? What is their background?
+**1. What is their role? What is their background?**
+Actuarial findings are often presented to audience with various roles and background.
+
 2. How technical are they? What do they already know?
 3. Who are their constituents? What are their motivations?
 4. How much detail do they really need? How much will suit them?
