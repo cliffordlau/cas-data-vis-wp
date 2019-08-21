@@ -1,4 +1,4 @@
-# How to Choose the Type of Visualization
+# How to Choose the Type of Data Visualization
 
 Contents:
 1.	Questions to Help Determine the Best Type of Visualization to Use
