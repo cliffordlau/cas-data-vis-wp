@@ -1,5 +1,6 @@
 ---
 output: word_document
+bibliography: references.bib
 ---
 
 ```{r include = FALSE}
@@ -12,18 +13,32 @@ knitr::opts_chunk$set(
 )
 ```
 
-# References
+# How to cite references
 
-Hey, look, references!
+References are stored in a .bib file. This is a LaTeX thing, which means it's creepy and weird, but we don't need to worry about that. The important thing is that - once we get over the odd syntax - we may treat a .bib file as though it is a database containing all of our references. There can be works in our .bib file that we don't actually cite. The data is there in case we need it.
+
+Here's a quick example of a citation:
+
+We really enjoyed reading [@Cleveland1993]. [@Cleveland1985] was also pretty nice.
+
+Read more about RMarkdown and bibliographies here: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html.
+
+## References in a data frame.
+
+If we like, we may use the `bib2df` package to extract data from a .bib file and place it into a data frame. We don't really need this for the document itself, the bibliography will do that for us. Possible use case could be transferring data from .bib to .csv, .xlsx or into a database. Or something. You do you.
 
 ```{r }
 tbl_ref <- bib2df('references.bib') %>% 
   rename_all(tolower) 
 
 tbl_ref %>% 
+  head() %>% 
   select(
     category, title, author
   ) %>% 
   knitr::kable()
 ```
 
+The bibliography will appear at the end of the document, so it's probably a good idea to name that section "References" or "Bibliography" or some such. For example ... 
+
+# References

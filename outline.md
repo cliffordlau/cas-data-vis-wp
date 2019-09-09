@@ -66,10 +66,5 @@
 			* Shape
 5.	Summary(?)placeholder; perhaps a one-page guide?
 6.	Appendix (?) placeholder
+7. Literature review
 7. References
-	* Storytelling With Data; Cole Nusbaumer-Knaflic
-	* Show Me the Numbers; Stephen Few
-	* Visualize This, Nathan Yau
-	* Visual Display of Quantitative Information; Beautiful Evidence; Edward Tufte
-	* Visualization Analysis & Design, Tamara Munzner
-
