@@ -3,7 +3,7 @@
 ## Definition of “Data Visualization”
 Visualizations are everywhere. Data and information is becoming more accessible all the time. To absorb the value from all this data, enter the concept of "Data Visualization" (data vis). **Simply, data visualization refers to data represented by a visual image**. Some of the most common and basic data vis include bar graphs, line graphs, and scatterplots. The general design concepts in this publicaion apply to any type of Data Visualization.
 
-##Background
+## Background
 Many authors have produced books, paper, and even websites which discuss and explain data vis topics. We intend to summarize the general design concepts in this publication, to maximize your viewers' absorption of the intended message(s).
 
 ## Why Do We Need Data Visualizations
