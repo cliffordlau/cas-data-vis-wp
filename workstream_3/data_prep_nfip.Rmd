@@ -25,8 +25,22 @@ unzip(copy_to, exdir = data_dir)
 
 ```{r}
 my_cols <- cols(
-  elevationcertificateindicator = col_factor()  
+  agriculturestructureindicator = col_factor()
+  , basementenclosurecrawlspacetype = col_factor()
+  , condominiumindicator = col_factor()
+  , elevatedbuildingindicator = col_factor()
+  , elevationcertificateindicator = col_factor()  
+  , floodzone = col_factor()
+  , houseworship = col_factor()
+  , locationofcontents = col_factor()
+  , nonprofitindicator = col_factor()
   , obstructiontype = col_factor()
+  , occupancytype = col_factor()
+  , postfirmconstructionindicator = col_factor()
+  , ratemethod = col_factor()
+  , smallbusinessindicatorbuilding = col_factor()
+  , state = col_factor()
+  , primaryresidence = col_factor()
 )
 
 tbl_nfip <- read_csv(
@@ -93,8 +107,29 @@ In fact, we do see that there are values of insured loss which preced entry to t
 
 ## Factors
 
+First, we'll create a data frame which contains only factors.
+
 ```{r}
 tbl_nfip_factors <- tbl_nfip %>% 
   select_if(is.factor)
 ```
 
+Next, we'll melt the data frame and convert the values to character. Why are we doing this? Because combining different factors will generate a warning because each column will have a different set of levels. This isn't a big deal, but we like to avoid warnings. We will also add a column which indicates whether the value is `NA`.
+
+```{r}
+tbl_nfip_factors_melt <- tbl_nfip_factors %>% 
+  mutate_all(as.character) %>% 
+  tidyr::gather('column', 'category') %>% 
+  mutate(is_na = is.na(category))
+```
+
+We can use `facet_wrap()` to have every column appear in its own plotting area. This is a minor time saver to prevent us having to loop through each column. (Actually, it prevents from having to _write_ that loop.) We make sure to set the scales to `'free'`. Finally, we map the fill color to whether the value is `NA`. This is also evident in the labels on the axis, but we want that information to consume more visual space.
+
+```{r}
+tbl_nfip_factors_melt %>% 
+  ggplot(aes(category)) + 
+  geom_bar(aes(fill = is_na)) + 
+  facet_wrap(~ column, scales = 'free')
+```
+
+We can get away with this plot in this case because we only have 16 factors to consider. We see that missingness is significant for half of the variables.
