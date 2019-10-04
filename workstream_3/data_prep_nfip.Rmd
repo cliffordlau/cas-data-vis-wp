@@ -1,0 +1,100 @@
+---
+title: Data prep NFIP
+---
+
+```{r}
+library(tidyverse)
+```
+
+This file will look at data from the National Flood Insurance Program (NFIP). Given the source, we do not anticipate any irregularities in the data. To execute this code, you will need to be connected to the internet.
+
+### Fetch data
+
+```{r}
+data_dir <- file.path('workstream_3', 'data')
+url <- 'https://www.fema.gov/media-library-data/1568731808674-3fd23ed5a562879373c9a47e292e3d74/FIMA_NFIP_Redacted_Claims_Data_Set.zip'
+copy_to <- file.path(data_dir, 'fema.zip')
+if (!file.exists(copy_to)) {
+  download.file(url, copy_to)  
+}
+
+unzip(copy_to, exdir = data_dir)
+```
+
+###
+
+```{r}
+my_cols <- cols(
+  elevationcertificateindicator = col_factor()  
+  , obstructiontype = col_factor()
+)
+
+tbl_nfip <- read_csv(
+  file.path(data_dir, 'openFEMA_claims20190630.csv')
+  , col_types = my_cols
+)
+```
+
+
+data types
+
+```{r}
+map(tbl_nfip, class)
+```
+
+### Check dates
+
+We'll start off by assessing the plausibility of date information. Here, we're looking at whether the dates are within a reasonable timeframe, given the history of NFIP and housing construction in the US. Further, we are looking for a distribution of values within date ranges themselves which makes sense. There should be some spread around a central value and a limited number of outliers.
+
+First, we'll create a data frame which has only date columns.
+
+```{r}
+tbl_nfip_dates <- tbl_nfip %>% 
+  select_if(lubridate::is.Date)
+```
+
+We'll inspect using just the first 100,000 values to make sure that we're heading in the right direction.
+
+```{r}
+tbl_nfip_dates %>% 
+  head(100e3) %>% 
+  tidyr::gather('column', 'date') %>% 
+  ggplot(aes(column, date)) + 
+  geom_boxplot()
+```
+
+From the plot, we see that the column `asofdate` is not worth inspecting. It's possible that there are some spurious values in there, but as they won't be used for any model, we are not concerned.
+
+```{r}
+tbl_nfip_dates %>% 
+  select(-asofdate) %>% 
+  tidyr::gather('column', 'date') %>% 
+  ggplot(aes(column, date)) + 
+  geom_boxplot()
+```
+
+Overall, things look good. There are no values which lie outside a reasonable date range. If this were so, the y-axis would have to be extended to accommodate those points. If that were to happen, we would see that the reasonable values from the sample would be compressed in such a way that they occupy very little of the visual space. In this case, there is an even spread along the vertical dimension.
+
+The column `originalnbdate` reflects the date at which a risk first entered the program. This value and `dateofloss` are - on average - later than the original construction date. Also, the median value for date of loss is later than the median value for entry into the program. We would be suspicious if the reverse were true. 
+
+We see that there is a greater spread of values in the original construction date. 
+
+If we are sharp eyed, we can see that the minimum from date of loss appears to predate the minimum for date of entry to the program. This shouldn't be so. To investigate this further, we can remove the data for original construction date so that the two columns are easier to compare.
+
+```{r}
+tbl_nfip_dates %>% 
+  select(-asofdate, -originalconstructiondate) %>% 
+  tidyr::gather('column', 'date') %>% 
+  ggplot(aes(column, date)) + 
+  geom_boxplot()
+```
+
+In fact, we do see that there are values of insured loss which preced entry to the program. It's possible that we've found some irregular data!
+
+## Factors
+
+```{r}
+tbl_nfip_factors <- tbl_nfip %>% 
+  select_if(is.factor)
+```
+
