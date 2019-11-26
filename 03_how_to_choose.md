@@ -2,17 +2,17 @@
 
 ## Contents:
 
-1.	Questions to Help Determine the Best Type of Visualization to Use
+###1.	Questions to Help Determine the Best Type of Visualization to Use
 
-2.	General Types of Visualization – Description and/or Example and Key Uses
+###2.	General Types of Visualization – Description and/or Example and Key Uses
 
-a.	Text
+*a.	Text
 
-b.	Table and Heatmap
+*b.	Table and Heatmap
 
-c.	Graph
+*c.	Graph
 
-3.	Types of Graphs – Description and/or Example and Key Uses
+###3.	Types of Graphs – Description and/or Example and Key Uses
 
 a.	Line
 b.	Slopegraph
