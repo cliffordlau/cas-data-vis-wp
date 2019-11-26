@@ -6,11 +6,11 @@
 
 ### 2.	General Types of Visualization – Description and/or Example and Key Uses
 
-1. a.	Text
+ a.	Text
 
-1. b.	Table and Heatmap
+ b.	Table and Heatmap
 
-1. c.	Graph
+ c.	Graph
 
 ### 3.	Types of Graphs – Description and/or Example and Key Uses
 
