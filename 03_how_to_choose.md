@@ -1,12 +1,19 @@
 # How to Choose the Type of Data Visualization
 
 ## Contents:
+
 1.	Questions to Help Determine the Best Type of Visualization to Use
+
 2.	General Types of Visualization – Description and/or Example and Key Uses
+
 a.	Text
+
 b.	Table and Heatmap
+
 c.	Graph
+
 3.	Types of Graphs – Description and/or Example and Key Uses
+
 a.	Line
 b.	Slopegraph
 c.	Bar
@@ -39,7 +46,7 @@ Example: 21%
 Simple text is useful when you have one or two numbers to show.
 
 Tables
-Example https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/TABLE.PNG
+Example !(https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/TABLE.PNG)
 
 Tables are likely the most useful in the following situations:
 •	When the goal of the visualization is to look up individual values
