@@ -1,6 +1,6 @@
 # How to Choose the Type of Data Visualization
 
-Contents:
+## Contents:
 1.	Questions to Help Determine the Best Type of Visualization to Use
 2.	General Types of Visualization – Description and/or Example and Key Uses
 a.	Text
@@ -26,12 +26,12 @@ c.	Double-Axis
 d.	Radar charts 
 e.	Violin
 
-1.	Questions to help you determine which type of visualization to use:
+## 1.	Questions to help you determine which type of visualization to use:
 •	How will the information be used?
 •	Which visualization will allow you to clearly convey your message?
 •	What is the most direct display of information that people need?
 
-2.	General Types of Visualization – Description and/or Example and Key Uses
+## 2.	General Types of Visualization – Description and/or Example and Key Uses
 
 Text
 Example: 21%
