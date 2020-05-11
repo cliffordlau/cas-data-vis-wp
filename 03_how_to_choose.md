@@ -14,13 +14,12 @@ Many authors have also described which graph to choose depending on the situatio
       2. Slopegraph - comparison of multiple variables at once, for two points in time 
       3. Sparklines - small version of minimalist line graph, shows changes in value over time at-a-glance
       
-         
-   Bar (Verical or Horizontal)
+    Bar (Verical or Horizontal)
       1. Ranking or simple value comparison
       2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable
       3. Histogram - distribution of values
          
-   Scatterplot 
+    Scatterplot 
       1. Exploratory data analysis
       2. Correlation between two variables
       3. Time series
@@ -34,7 +33,7 @@ Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, 
  Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
 
 ### 4.	Visualizations to Avoid
-Many common visuals do not actually communicated the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
+Many common visuals do not actually communicate the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
    a.	Pie, Donuts, and Radar - the human eye is not well suited to decipher angle and area
    
