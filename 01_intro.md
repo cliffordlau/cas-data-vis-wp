@@ -15,5 +15,3 @@ Actuaries excel at analyzing data and drawing conclusions from their work, but t
 I've always said to myself and others, "We can do the best work with the best data resulting in the best conclusion, but if we can't communicate it effectively, the message is LOST".
 
 With a little knowledge, practice, and effort, we can create visualizations so that our viewers absorb the clear message that we intend to send. We provide practical tips to make your data visualizations sing!
-
-![Test](figures/test_01.png)
