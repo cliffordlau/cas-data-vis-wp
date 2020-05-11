@@ -65,6 +65,7 @@ Many common visuals do not actually communicated the message effectively. Some r
    
    #### Tables
        Example ![Table Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/TABLE.PNG)
+       Example ![Table Example](Choosing Pics/HEATMAP.PNG)
 
        Tables are likely the most useful in the following situations:
        * When the goal of the visualization is to look up individual values
