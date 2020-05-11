@@ -1,61 +1,56 @@
 # How to Choose the Type of Data Visualization
+Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
-## Contents:
 
-### 1.	Questions to Help Determine the Best Type of Visualization to Use
+### 1.	Determine the Best Type of Visualization to Use
+Many authors have also described which graph to choose depending on the situation and what is intended to be shown. It is up to the designer to experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience. Try creating multiple versions for a given task, and ask a trusted colleague for feedback about which works best for the intended message. 
 
-### 2.	General Types of Visualization – Description and/or Example and Key Uses
 
-   a.	Text
+### 2.	Types of Visuals and Key Uses
 
-   b.	Tables and Heatmaps
+    Line
+      1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution, 
+      2. Slopegraph - comparison of multiple variables at once, for two points in time 
+      3. Sparklines - small version of minimalist line graph, shows changes in value over time at-a-glance
+      
+         
+   Bar (Verical or Horizontal)
+      1. Ranking or simple value comparison
+      2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable
+      3. Histogram - distribution of values
+         
+   Scatterplot 
+      1. Exploratory data analysis
+      2. Correlation between two variables
+      3. Time series
+            
+   Text - when a key single value is all that needs to be communicated. 
 
-   c.	Graphs
+   Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a table with heatmap-encoded values, however, can be used effectively to communicate a message
 
-### 3.	Types of Graphs – Description and/or Example and Key Uses
-
-   a.	Line
+Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
    
-   b.	Slopegraph
-   
-   c.	Bar
-   
-   d.	Area
-   
-   e.	Scatterplot
-   
-   f.	Dot Plots
-   
-   g.	Strip Plots
-   
-   h.	Vertical Box & Whisker Plots
-   
-   i.	Small Multiples aka Trellis charts
-
-   j.	Sparklines
-
-   k.	Maps
+ Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
 
 ### 4.	Visualizations to Avoid
+Many common visuals do not actually communicated the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
-   a.	Pies and Donuts 
+   a.	Pie, Donuts, and Radar - the human eye is not well suited to decipher angle and area
    
-   b.	3D 
+   b.	3D - due to the perspective, these graphs easily convey misleading information
    
-   c.	Double-Axis 
+   c.	Area - the human eye does not decipher area effectively
    
-   d.	Radar charts 
+   d. Double-Axis - too much for a reader to process quickly and effectively 
    
-   e.	Violins
-   
+     
+## Questions to help determine which type of visualization to use:
 
-## Questions to help you determine which type of visualization to use:
+*	What is the **simplest** way the information can be conveyed?
 
-*	How will the information be used?
+*	Have I tried other ways of displaying the information?
 
-*	Which visualization will allow you to clearly convey your message?
-
-*	What is the most direct display of information that people need?
+*	Have I shown a draft visualization to another person for feedback on how effective it conveys the message?
 
 
 ## General Types of Visualization – Description and/or Example and Key Uses
@@ -124,6 +119,7 @@
    #### Vertical Bar Chart
    
        Example ![Vertical Bar Chart Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/VERTICAL_BAR.PNG)
+       
 
        Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
