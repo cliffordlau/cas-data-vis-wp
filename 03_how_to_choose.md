@@ -1,6 +1,7 @@
 # How to Choose the Type of Data Visualization
 Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
+ ![Table Example](/Choosing Pics/HEATMAP.PNG)
 
 ### 1.	Determine the Best Type of Visualization to Use
 Many authors have also described which graph to choose depending on the situation and what is intended to be shown. It is up to the designer to experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience. Try creating multiple versions for a given task, and ask a trusted colleague for feedback about which works best for the intended message. 
@@ -65,8 +66,7 @@ Many common visuals do not actually communicated the message effectively. Some r
    
    #### Tables
        Example ![Table Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/TABLE.PNG)
-       ![Table Example](Choosing Pics/HEATMAP.PNG)
-
+      
        Tables are likely the most useful in the following situations:
        * When the goal of the visualization is to look up individual values
        * When the user needs a one-to-one comparison or to compare pairs of related variables
