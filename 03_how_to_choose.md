@@ -3,6 +3,8 @@ Now that we have established the audience and the message, it is time to design 
 
  ![Table Example](/Choosing Pics/HEATMAP.PNG)
 
+![Table Example](Choosing%20Pics/HEATMAP.PNG)
+
 ### 1.	Determine the Best Type of Visualization to Use
 Many authors have also described which graph to choose depending on the situation and what is intended to be shown. It is up to the designer to experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience. Try creating multiple versions for a given task, and ask a trusted colleague for feedback about which works best for the intended message. 
 
