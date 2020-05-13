@@ -1,12 +1,8 @@
 # How to Choose the Type of Data Visualization
 Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
- ![Table Example](/Choosing Pics/HEATMAP.PNG)
-
-![Table Example](Choosing%20Pics/HEATMAP.PNG)
-
 ### 1.	Determine the Best Type of Visualization to Use
-Many authors have also described which graph to choose depending on the situation and what is intended to be shown. It is up to the designer to experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience. Try creating multiple versions for a given task, and ask a trusted colleague for feedback about which works best for the intended message. 
+Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they get the message. Try creating multiple versions for a given task, and ask a trusted colleague for feedback about which works best for the intended message. 
 
 
 ### 2.	Types of Visuals and Key Uses
@@ -28,13 +24,13 @@ Many authors have also described which graph to choose depending on the situatio
             
    Text - when a key single value is all that needs to be communicated. 
 
-   Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a table with heatmap-encoded values, however, can be used effectively to communicate a message
+   Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, however, can be used effectively to communicate a message
 
 Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
    
  Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
 
-### 4.	Visualizations to Avoid
+### 3.	Visualizations to Avoid
 Many common visuals do not actually communicate the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
    a.	Pie, Donuts, and Radar - the human eye is not well suited to decipher angle and area
@@ -46,7 +42,7 @@ Many common visuals do not actually communicate the message effectively. Some re
    d. Double-Axis - too much for a reader to process quickly and effectively 
    
      
-## Questions to help determine which type of visualization to use:
+### Questions to help determine which type of visualization to use:
 
 *	What is the **simplest** way the information can be conveyed?
 
@@ -55,51 +51,25 @@ Many common visuals do not actually communicate the message effectively. Some re
 *	Have I shown a draft visualization to another person for feedback on how effective it conveys the message?
 
 
-## General Types of Visualization – Description and/or Example and Key Uses
+## EXAMPLES
 
    ### Text
    
       Example: **21%**
 
       Simple text is useful when you have one or two numbers to show.
-
-   ### Tables and Heatmaps
-   
+    
    #### Tables
-       Example ![Table Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/TABLE.PNG)
-      
-       Tables are likely the most useful in the following situations:
-       * When the goal of the visualization is to look up individual values
-       * When the user needs a one-to-one comparison or to compare pairs of related variables
-       *	When the goal of the visualization is to communicate to a diverse audience where each will look for their row or column of interest 
-       *	Information needs to be read, such as across rows or down columns
-       *	Precision is important
-       *	You have multiple data sets with different units of measure
-       *	You want to combine summary and detailed information
-       
-
-       Tables are likely too detailed and time consuming for your reader to use during a live presentation.
+             
+      ![Table Example](Choosing%20Pics/TABLE.PNG)
 
    #### Heatmaps
-       Example ![Heatmap Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/HEATMAP.PNG)
-
-       Definition: a heatmap is a variation on a table emphasizing the magnitude of the entries using intensity of color, such as through conditional formatting in Microsoft Excel.
-
+       
        Heatmaps can ease the reading of tables for low and high values.
-
-   ### Graphs
-   
-       Graphs are likely the most useful in the following situations:
-       *	The goal of the visualization is to examine large datasets at once
-       *	When the primary goal of the visualization is to discern patterns, an overall shape, and/or relationships, including trends over time 
-       *	When the viewer is interested in exceptions within patterns
-       *	When the goal of the visualization is to examine a set of quantitative values as a whole
-       *	When the goal of the visualization is to see the differences and similarities between two datasets
-
-## Types of Graphs – Descriptions and/or Examples and Key Uses
-
+       ![Table Example](Choosing%20Pics/HEATMAP.PNG)
+  
    ### Line
-   
+      ![Line Example](Choosing%20Pics/LINE.PNG)
        Example ![Line Graph Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/LINE.PNG)
        Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
 
@@ -109,17 +79,16 @@ Many common visuals do not actually communicate the message effectively. Some re
        *	Viewing cumulative distributions or multiple related histograms on a single graph, especially for a limited number of distributions; also called frequency polygons.
 
    ### Slopegraph
-   
+     ![Slopegraph Example](Choosing%20Pics/SLOPEGRAPH.PNG)
        Example ![Slopegraph Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/SLOPEGRAPH.PNG)
 
-       Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases, increases or differences across categories between the two time period points.
+       Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
-       Slopegraphs might not be indicated if many of the lines are overlapping.
+       Slopegraphs can get cluttered, however, there are many overlapping lines.
 
-   ### Bar Charts
-
-   #### Vertical Bar Chart
    
+   #### Vertical Bar Chart
+      ![Slopegraph Example](Choosing%20Pics/VERTICAL_BAR.PNG)
        Example ![Vertical Bar Chart Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/VERTICAL_BAR.PNG)
        
 
@@ -224,3 +193,28 @@ Many common visuals do not actually communicate the message effectively. Some re
  ### Violin Plots
 
        Because these plots look like Christmas ornaments or body parts, they can distract the audience from the information they provide. Consider using stacked histogram
+
+
+(MOVED FROM PREV SECTION)
+#### Tables
+
+ Tables are likely the most useful in the following situations:
+       * When the goal of the visualization is to **look up individual values**
+       * When the user needs a one-to-one comparison or to compare pairs of related variables
+       *	When the goal of the visualization is to communicate to a diverse audience where each will look for their row or column of interest
+       *	Information needs to be read, such as across rows or down columns
+       *	Precision is important, as opposed to a general sense of the data from a graph
+       *	You have multiple data sets with different units of measure
+       *	You want to combine summary and detailed information
+       
+       Tables are likely too detailed and time consuming for your reader to use during a live presentation.
+       
+       
+ ### Graphs
+   
+       Graphs are likely the most useful in the following situations:
+       *	The goal of the visualization is to examine large datasets at once
+       *	When the primary goal of the visualization is to discern patterns, an overall shape, and/or relationships, including trends over time 
+       *	When the viewer is interested in exceptions within patterns
+       *	When the goal of the visualization is to examine a set of quantitative values as a whole
+       *	When the goal of the visualization is to see the differences and similarities between two datasets
