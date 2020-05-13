@@ -142,19 +142,20 @@ Scatterplots are useful to show the relationship between two variables or correl
 Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
 
  
-   ### Vertical Box & Whisker Plots
+   ### Box & Whisker Plots, and Violin
    
-       Vertical box & whisker plots display a large amount of data in a single box: highest and lowest values, the spread of values from highest to lowest, the median, the spread from the 25th to 75th percentiles, and the 25th and 75th percentiles.
+   ![Violin](Choosing%20Pics/violin_iris.PNG)
+   ![Boxplot](Choosing%20Pics/boxplot_iris.PNG)
+   
+       Vertical box & whisker plots display a large amount of data in a single box: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles.
 
        Vertical box & whiskers plots are valuable in showing distribution changes over time. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to a high, median, and low box plot without whiskers
 
  
    ### Maps
-   
-       Maps are valuable for displaying geospatial information. Points on maps show the precise location of information. You can use varying sizes or intensities of points on a map to increase the information included.
-
-       If there are too many values to show individual points on a map, you can use color intensity for various geographical regions or lines of various thicknesses to show information related to routes.
-
+   ![US Map](Choosing%20Pics/USMap.PNG)
+       Maps are valuable for displaying geospatial information. One can use intensities of color of a state or region on a map to reveal the data.
+     
 
  
 
