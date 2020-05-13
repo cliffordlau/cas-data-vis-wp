@@ -33,14 +33,14 @@ Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, 
 ### 3.	Visualizations to Avoid
 Many common visuals do not actually communicate the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
-   a.	Pie, Donuts, and Radar - the human eye is not well suited to decipher angle and area
+   a.	Pie and Donuts - the human eye can not accurately compare angles and area of pie or donut slices. Try stacked bar.
+    
+   b.	3D - due to the perspective, the human eye cannot accurately compare relative values three dimensionally. Try using color.
+
+   c.	Area - the human eye does not decipher area effectively. Try vertical bars.
    
-   b.	3D - due to the perspective, these graphs easily convey misleading information
-   
-   c.	Area - the human eye does not decipher area effectively
-   
-   d. Double-Axis - too much for a reader to process quickly and effectively 
-   
+   d.   Double-Axis - too much for a reader to process quickly and effectively. Try separating the graphs vertically with the same x-axis and different y-axes.
+
      
 ### Questions to help determine which type of visualization to use:
 
@@ -55,7 +55,7 @@ Many common visuals do not actually communicate the message effectively. Some re
 
    ### Text
    
-      Example: **21%**
+   Example: **21%**
 
       Simple text is useful when you have one or two numbers to show.
     
@@ -79,13 +79,16 @@ Many common visuals do not actually communicate the message effectively. Some re
        *	Combining a deviation relationship (such as a difference from plan) and time series
        *	Viewing cumulative distributions or multiple related histograms on a single graph, especially for a limited number of distributions; also called frequency polygons.
 
+  ### Sparklines
+   
+   Sparklines can be valuable for seeing trends or highlighting minimum and maximum values. Typically used in a minimalist way.
+              
    ### Slopegraph
    ![Slopegraph Example](Choosing%20Pics/SLOPEGRAPH.PNG)
-       Example ![Slopegraph Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/SLOPEGRAPH.PNG)
+   
+   Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
-       Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
-
-       Slopegraphs can get cluttered, however, there are many overlapping lines.
+   Slopegraphs can get cluttered and should hence be avoided, however, when there are too many overlapping lines.
 
    
    #### Vertical Bar Chart
@@ -93,12 +96,12 @@ Many common visuals do not actually communicate the message effectively. Some re
        
        Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
-       Avoid using too many sets of bars or categories, as this may obscure the intended message. 
+Avoid using too many sets of bars or categories, as this may obscure the intended message. 
 
    #### Stacked Vertical Bar Charts
    ![Stacked Vertical Bar Example](Choosing%20Pics/STACKED_VERTICAL_BAR.PNG)
        
-       Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
+Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 
   
    #### Histogram
@@ -112,7 +115,9 @@ Many common visuals do not actually communicate the message effectively. Some re
        Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
    #### Stacked Horizontal Bar Chart
-   ![Stacked Horiz](Choosing%20Pics/STACKED_HORIZONTAL_BAR.PNG)
+   ![Stacked Horizontal](Choosing%20Pics/STACKED_HORIZONTAL_BAR.PNG)
+   
+   ![Alt tacked Horizontal](Choosing%20Pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
        
        Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
        *	Showing parts of a whole
@@ -124,72 +129,37 @@ Many common visuals do not actually communicate the message effectively. Some re
    ![Waterfall](Choosing%20Pics/WATERFALL.PNG)
        
        Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
-   ### Area
    
-       Example ![Area Chart Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/AREA.PNG)
-
-       Area graphs can be useful for comparing numbers of much different magnitudes.
-
    ### Scatterplot
-   
-       Example ![Scatterplot Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/SCATTERPLOT.PNG)
+   ![Scatterplot](Choosing%20Pics/SCATTERPLOT.PNG)
+       
+Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens as an alternative.
 
-       Scatterplots are useful when you are interested in the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens as an alternative.
 
    ### Dot Plots
-   
-       Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
+   ![Dot Plot](Choosing%20Pics/DOT_PLOT.PNG)
+       
+Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
 
-       Example ![Dot Plot Example](https://github.com/cliffordlau/cas-data-vis-wp/blob/master/Choosing%20Pics/DOT_PLOT.PNG)
-
-   ### Strip Plots
-   
-       Strip plots are useful for displaying a distribution of relatively few points when the individual values are important to show. Vertical strip plots can be used to show distributions of relatively few points over time.
-
+ 
    ### Vertical Box & Whisker Plots
    
        Vertical box & whisker plots display a large amount of data in a single box: highest and lowest values, the spread of values from highest to lowest, the median, the spread from the 25th to 75th percentiles, and the 25th and 75th percentiles.
 
        Vertical box & whiskers plots are valuable in showing distribution changes over time. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to a high, median, and low box plot without whiskers
 
-   ### Small Multiples or Trellis Charts
-   
-       Small multiples or trellis charts can be useful for finding pattern in very complex data.
-
-   ### Sparklines
-   
-              Sparklines can be valuable for seeing trends or highlighting minimum and maximum values.
-
+ 
    ### Maps
    
        Maps are valuable for displaying geospatial information. Points on maps show the precise location of information. You can use varying sizes or intensities of points on a map to increase the information included.
 
        If there are too many values to show individual points on a map, you can use color intensity for various geographical regions or lines of various thicknesses to show information related to routes.
 
-## Visualizations to Avoid
 
- ### Pie and Donut Charts
  
-       It is not easy for the eye to accurately compare relative sizes of pie slices; consider horizontal stacked bar charts instead.
-
- ### 3D Graphs and Elements
-
-       It is not easy to compare relative values three dimensionally. Consider bubble plots with varying sized bubbles for a 3rd dimension and varying color intensities for a 4th dimension but use care in readability for all.
-
- ### Double-Axes
-
-       Charts with two different axes can take too much time to interpret. Consider not showing second y-axis, but labeling the data points directly instead. Alternatively, consider separating the graphs vertically with the same x-axis and different y-axes.
-
- ### Radar Charts
-
-       Radar charts are too confusing for the most viewers.
- 
- ### Violin Plots
-
-       Because these plots look like Christmas ornaments or body parts, they can distract the audience from the information they provide. Consider using stacked histogram
-
 
 (MOVED FROM PREV SECTION)
+
 #### Tables
 
  Tables are likely the most useful in the following situations:
