@@ -144,13 +144,13 @@ Dot plots are useful for nominal comparative relationships where you want to hig
  
    ### Box & Whisker Plots, and Violin
    
-   ![Violin](Choosing%20Pics/violin_iris.png)
    ![Boxplot](Choosing%20Pics/boxplot_iris.png)
+    
+          Vertical box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
+          
+   ![Violin](Choosing%20Pics/violin_iris.png)
    
-       Vertical box & whisker plots display a large amount of data in a single box: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles.
-
-       Vertical box & whiskers plots are valuable in showing distribution changes over time. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to a high, median, and low box plot without whiskers
-
+   Violin plots provide a truer shape of the distribution than a boxplot.
  
    ### Maps
    ![US Map](Choosing%20Pics/USMap.PNG)
