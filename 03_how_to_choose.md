@@ -61,7 +61,7 @@ Many common visuals do not actually communicate the message effectively. Some re
     
    #### Tables
              
-      ![Table Example](Choosing%20Pics/TABLE.PNG)
+   ![Table Example](Choosing%20Pics/TABLE.PNG)
 
    #### Heatmaps
        
