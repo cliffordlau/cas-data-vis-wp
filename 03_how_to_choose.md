@@ -53,12 +53,10 @@ Many common visuals do not actually communicate the message effectively. Some re
 
 ## EXAMPLES
 
-   ![Text](Choosing%20Pics/TABLE.PNG)
+   ![Text](Choosing%20Pics/TEXT.PNG)
    Simple text is useful when you have one or two numbers to show.
    
-          
   ![Table](Choosing%20Pics/TABLE.PNG)
-
  
   ![Heatmap](Choosing%20Pics/HEATMAP.PNG)    
    
@@ -95,7 +93,7 @@ Use caution in using stacked vertical bar charts, as it can be hard to compare s
 
   ![Histogram](Choosing%20Pics/HISTOGRAM.PNG)
        
-       A histogram is a vertical bar chart used to display a distribution.
+   A histogram is a vertical bar chart used to display a distribution.
 
   ![Horiz](Choosing%20Pics/HORIZONTAL_BAR.PNG)
        
@@ -125,15 +123,15 @@ Scatterplots are useful to show the relationship between two variables or correl
 Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
 
  
-   ![Boxplot](Choosing%20Pics/boxplot_iris.PNG)
+   ![Boxplot](Choosing%20Pics/BOXPLOT_IRIS.PNG)
     
 Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
           
-   ![Violin](Choosing%20Pics/violin_iris.PNG)
+   ![Violin](Choosing%20Pics/VIOLIN_IRIS.PNG)
    
 Violin plots provide a truer shape of the distribution than a boxplot.
  
-   ![Map](Choosing%20Pics/USMap.PNG)
+   ![Map](Choosing%20Pics/USMAP.PNG)
 Maps are valuable for displaying geospatial information. One can use intensities of color of a state or region on a map to reveal the data.
      
 
