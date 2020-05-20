@@ -7,26 +7,26 @@ Many authors have described which graph to choose depending on the situation and
 
 ### 2.	Overview of Main Types of Visuals and Key Uses
 
-    Line
+   Line
       1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution, 
       2. Slopegraph - comparison of multiple variables at once, for two points in time 
       3. Sparklines - small version of minimalist line graph, shows changes in value over time at-a-glance
       
-    Bar (Verical or Horizontal)
+   Bar (Verical or Horizontal)
       1. Ranking or simple value comparison
       2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable
       3. Histogram - distribution of values
          
-    Scatterplot 
+   Scatterplot 
       1. Exploratory data analysis
       2. Correlation between two variables
       3. Time series
             
    Text - when a key single value is all that needs to be communicated. 
 
-   Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, however, can be used effectively to communicate a message
+   Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, however, can be used effectively to communicate a trend or relationship as a message.
 
-Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
+   Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
    
  Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
 
@@ -55,9 +55,7 @@ Many common visuals do not actually communicate the message effectively. Some re
 
    ### Text
    
-   Example: **21%**
-
-      Simple text is useful when you have one or two numbers to show.
+   Example: **21%**              Simple text is useful when you have one or two numbers to show.
     
    #### Tables
              
@@ -67,17 +65,17 @@ Many common visuals do not actually communicate the message effectively. Some re
    #### Heatmaps
    ![Table Example](Choosing%20Pics/HEATMAP.PNG)    
    
-      Heatmaps can ease the identification of low and high values, or reveal data patterns.
+   Heatmaps can ease the identification of low and high values, or reveal data patterns.
    
    ### Line
    ![Line Example](Choosing%20Pics/LINE.PNG)
        
-       Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
+   Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
 
-       Line graphs are likely the most useful when:
-       *	Showing data over time 
-       *	Combining a deviation relationship (such as a difference from plan) and time series
-       *	Viewing cumulative distributions or multiple related histograms on a single graph, especially for a limited number of distributions; also called frequency polygons.
+   Line graphs are likely the most useful when:
+       * Showing data over time 
+       * Combining a deviation relationship (such as a difference from plan) and time series
+       * Viewing cumulative distributions or multiple related histograms on a single graph, especially for a limited number of distributions; also called frequency polygons.
 
   ### Sparklines
    
@@ -86,17 +84,17 @@ Many common visuals do not actually communicate the message effectively. Some re
    ### Slopegraph
    ![Slopegraph Example](Choosing%20Pics/SLOPEGRAPH.PNG)
    
-   Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
+Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
-   Slopegraphs can get cluttered and should hence be avoided, however, when there are too many overlapping lines.
+Slopegraphs can get cluttered, and should hence be avoided when there are too many overlapping lines.
 
    
    #### Vertical Bar Chart
    ![Vertical Bar Example](Choosing%20Pics/VERTICAL_BAR.PNG)
        
-       Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
+Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
-Avoid using too many sets of bars or categories, as this may obscure the intended message. 
+Avoid using more than 3 sub-categories within bars, as this may obscure the intended message. 
 
    #### Stacked Vertical Bar Charts
    ![Stacked Vertical Bar Example](Choosing%20Pics/STACKED_VERTICAL_BAR.PNG)
@@ -112,23 +110,23 @@ Use caution in using stacked vertical bar charts, as it can be hard to compare s
    #### Horizontal Bar
    ![Horiz](Choosing%20Pics/HORIZONTAL_BAR.PNG)
        
-       Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
+Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
    #### Stacked Horizontal Bar Chart
    ![Stacked Horizontal](Choosing%20Pics/STACKED_HORIZONTAL_BAR.PNG)
    
    ![Alt tacked Horizontal](Choosing%20Pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
        
-       Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
-       *	Showing parts of a whole
-       *	Featuring totals and providing an approximate sense of the parts
+  Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
+       * Showing parts of a whole
+       * Featuring totals and providing an approximate sense of the parts
 
        As an alternative, consider pulling the stacked bars apart into a single ranking horizontal bar chart whose percentage totals add to 100%.
    
    #### Waterfall Chart
    ![Waterfall](Choosing%20Pics/WATERFALL.PNG)
        
-       Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
+   Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
    
    ### Scatterplot
    ![Scatterplot](Choosing%20Pics/SCATTERPLOT.PNG)
@@ -146,15 +144,15 @@ Dot plots are useful for nominal comparative relationships where you want to hig
    
    ![Boxplot](Choosing%20Pics/boxplot_iris.png)
     
-          Vertical box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
+Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
           
    ![Violin](Choosing%20Pics/violin_iris.png)
    
-   Violin plots provide a truer shape of the distribution than a boxplot.
+Violin plots provide a truer shape of the distribution than a boxplot.
  
    ### Maps
    ![US Map](Choosing%20Pics/USMap.PNG)
-       Maps are valuable for displaying geospatial information. One can use intensities of color of a state or region on a map to reveal the data.
+Maps are valuable for displaying geospatial information. One can use intensities of color of a state or region on a map to reveal the data.
      
 
  
@@ -166,20 +164,15 @@ Dot plots are useful for nominal comparative relationships where you want to hig
  Tables are likely the most useful in the following situations:
        * When the goal of the visualization is to **look up individual values**
        * When the user needs a one-to-one comparison or to compare pairs of related variables
-       *	When the goal of the visualization is to communicate to a diverse audience where each will look for their row or column of interest
+       * When the goal of the visualization is to communicate to a diverse audience where each will look for their own value
        *	Information needs to be read, such as across rows or down columns
        *	Precision is important, as opposed to a general sense of the data from a graph
        *	You have multiple data sets with different units of measure
        *	You want to combine summary and detailed information
        
-       Tables are likely too detailed and time consuming for your reader to use during a live presentation.
+ Tables are likely too detailed and time consuming for your reader to use during a live presentation.
        
        
- ### Graphs
+ 
    
-       Graphs are likely the most useful in the following situations:
-       *	The goal of the visualization is to examine large datasets at once
-       *	When the primary goal of the visualization is to discern patterns, an overall shape, and/or relationships, including trends over time 
-       *	When the viewer is interested in exceptions within patterns
-       *	When the goal of the visualization is to examine a set of quantitative values as a whole
-       *	When the goal of the visualization is to see the differences and similarities between two datasets
+      
