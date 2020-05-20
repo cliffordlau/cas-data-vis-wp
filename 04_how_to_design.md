@@ -27,34 +27,35 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 ## How to Accentuate to Make the Data ‘Pop’
 We have nany tools to draw our viewers attention and  
 
-* Gestalt principles (from the Gestalt School of Psychology, 1912). These principles have identified how the brain works to visually connect things together and make sense of our world. The following principles apply:
+**Gestalt principles** (from the Gestalt School of Psychology, 1912). These principles have identified how the brain works to visually connect things together and make sense of our world. The following principles apply:
 	* Proximity. The closer things are together, the brain naturally groups them together. We can design our data vis to direct our viewer to see the patterns or data the way we want them to.
 	* Similarity. Objects with similiar size, color, shape, font, or angular orientation are perceived by the brain to be part of the same group. 
 	* Enclosure. Using some type of border or shading can render data to be grouped together. The brain will attempt to enclose things that aren't even necessarily fully enclosed by a solid line. The brain will likely 'fill in' a dashed line to perceive it as ecnlosing something if it can be interpreted that way. 
 	* Continuity.  The brain may perceive a border to exist when objects are lined up (e.g. bars lined up along the x-axis could render a graph's x-axis border).
 	* Connection. This principle is commonly used in line graphs to literally 'connect the dots' for the viewer. (consider example of 4 dots  shown twice; once with vertical lines connecting two dots and another with horizontal lines connecting)
 	
-* Pre-attentive Attributes (*Show Me The Numbers*, Stephen Few). The human eye and brain are programmed to perceive a specific set of visual attributes very quickly and with a high rate of accuracy.
+**Pre-attentive Attributes** (*Show Me The Numbers*, Stephen Few). The human eye and brain are programmed to perceive a specific set of visual attributes very quickly and with a high rate of accuracy.
 	
-	* Attributes of Form
-		** Length. Can be quantitatively perceived.
-		** Width. Can be quantitatively perceived, but limited in accuracy.
-		** Size. Can be quantitatively perceived, but limited in accuracy.
-		** Shape. Cannot be quantitatively perceived.
-		** Orientation in 2D. Cannot be quantitatively perceived.
-		** Enclosure. Cannot be quantitatively perceived.
-		** Spatial position in 2-Dimensions. We perceive and contrast vertical and horizontal position fairly well, in two dimensions. Our brains do not consistently or accurately perceive location in threee dimensions as well as two dimensions. This is why 3D graphs are to be avoided.
+Attributes of Form
+* Length. Can be quantitatively perceived.
+* Width. Can be quantitatively perceived, but limited in accuracy.
+* Size. Can be quantitatively perceived, but limited in accuracy.
+* Shape. Cannot be quantitatively perceived.
+* Orientation in 2D. Cannot be quantitatively perceived.
+* Enclosure. Cannot be quantitatively perceived.
+* Spatial position in 2-Dimensions. We perceive and contrast vertical and horizontal position fairly well, in two dimensions. Our brains do not consistently or accurately perceive location in threee dimensions as well as two dimensions. This is why 3D graphs are to be avoided.
 	
-	* Attributes of Color
+Attributes of Color
 		** Hue refers to color. Hue can be described by the location on a standard color wheel. Color combinations that work well together, and are distinct enough from one another, can be found on the website ColorBrewer.org.
 		** Intensity refers to 'fullness' of a color (saturation), and lightness or darkness of a given color.
 		
-	* Some Examples	of Preattentive Attributes
+![Some Examples of Preattentive Attributes](pictures/PAA.png)
 	
 				
-	* To be Avoided
-		** Pie Charts. The eye cannot easily distinguish the degree of an angle from another unless they are very different. Similarly, the human eye cannot distinguish the quantitative area of a given shape easily. For thos two reasons, pie charts are commonly used but not effective
-	
+* To be Avoided
+** Pie Charts. The eye cannot easily distinguish the degree of an angle from another unless they are very different. Similarly, the human eye cannot distinguish the quantitative area of a given shape easily. For thos two reasons, pie charts are commonly used but not effective
+
+Appendix
 	* Hierarchy of comparisons of magnitude
 		* Position along common scale
 		* Position along non-aligned scale
