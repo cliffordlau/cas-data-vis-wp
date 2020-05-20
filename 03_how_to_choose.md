@@ -89,19 +89,15 @@ Vertical bar charts are useful for time series graphs where you want to focus on
 
 Avoid using more than 3 sub-categories within bars, as this may obscure the intended message. 
 
-   #### Stacked Vertical Bar Charts
-   ![Stacked Vertical Bar Example](Choosing%20Pics/STACKED_VERTICAL_BAR.PNG)
+  ![Stacked Vertical Bar Example](Choosing%20Pics/STACKED_VERTICAL_BAR.PNG)
        
 Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 
-  
-   #### Histogram
-   ![Histogram](Choosing%20Pics/HISTOGRAM.PNG)
+  ![Histogram](Choosing%20Pics/HISTOGRAM.PNG)
        
        A histogram is a vertical bar chart used to display a distribution.
 
-   #### Horizontal Bar
-   ![Horiz](Choosing%20Pics/HORIZONTAL_BAR.PNG)
+  ![Horiz](Choosing%20Pics/HORIZONTAL_BAR.PNG)
        
 Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
@@ -129,11 +125,11 @@ Scatterplots are useful to show the relationship between two variables or correl
 Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
 
  
-   ![Boxplot](Choosing%20Pics/boxplot_iris.png)
+   ![Boxplot](Choosing%20Pics/boxplot_iris.PNG)
     
 Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
           
-   ![Violin](Choosing%20Pics/violin_iris.png)
+   ![Violin](Choosing%20Pics/violin_iris.PNG)
    
 Violin plots provide a truer shape of the distribution than a boxplot.
  
