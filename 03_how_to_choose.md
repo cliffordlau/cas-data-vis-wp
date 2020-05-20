@@ -53,44 +53,37 @@ Many common visuals do not actually communicate the message effectively. Some re
 
 ## EXAMPLES
 
-   ### Text
+   ![Text](Choosing%20Pics/TABLE.PNG)
+   Simple text is useful when you have one or two numbers to show.
    
-   Example: **21%**              Simple text is useful when you have one or two numbers to show.
-    
-   #### Tables
-             
-   ![Table Example](Choosing%20Pics/TABLE.PNG)
+          
+  ![Table](Choosing%20Pics/TABLE.PNG)
 
-
-   #### Heatmaps
-   ![Table Example](Choosing%20Pics/HEATMAP.PNG)    
+ 
+  ![Heatmap](Choosing%20Pics/HEATMAP.PNG)    
    
    Heatmaps can ease the identification of low and high values, or reveal data patterns.
    
-   ### Line
-   ![Line Example](Choosing%20Pics/LINE.PNG)
+   ![Line](Choosing%20Pics/LINE.PNG)
        
-   Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
+Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
 
-   Line graphs are likely the most useful when:
-       * Showing data over time 
-       * Combining a deviation relationship (such as a difference from plan) and time series
-       * Viewing cumulative distributions or multiple related histograms on a single graph, especially for a limited number of distributions; also called frequency polygons.
+Line graphs are best for:
+       * Time series
+       * Combining a deviation relationship (such as a difference from plan)
+       * Viewing a (smoothed) cumulative distribution, or multiple related histograms on a single graph.
 
-  ### Sparklines
+   ![Sparklines](Choosing%20Pics/Sparklines.PNG)
    
    Sparklines can be valuable for seeing trends or highlighting minimum and maximum values. Typically used in a minimalist way.
               
-   ### Slopegraph
-   ![Slopegraph Example](Choosing%20Pics/SLOPEGRAPH.PNG)
+   ![Slopegraph](Choosing%20Pics/SLOPEGRAPH.PNG)
    
 Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
 Slopegraphs can get cluttered, and should hence be avoided when there are too many overlapping lines.
 
-   
-   #### Vertical Bar Chart
-   ![Vertical Bar Example](Choosing%20Pics/VERTICAL_BAR.PNG)
+  ![Vertical Bar Example](Choosing%20Pics/VERTICAL_BAR.PNG)
        
 Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
@@ -112,36 +105,30 @@ Use caution in using stacked vertical bar charts, as it can be hard to compare s
        
 Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
-   #### Stacked Horizontal Bar Chart
-   ![Stacked Horizontal](Choosing%20Pics/STACKED_HORIZONTAL_BAR.PNG)
+   ![Stacked Horizontal Bar](Choosing%20Pics/STACKED_HORIZONTAL_BAR.PNG)
    
-   ![Alt tacked Horizontal](Choosing%20Pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
+   ![Alternative Sacked Horizontal Bar](Choosing%20Pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
        
   Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
        * Showing parts of a whole
        * Featuring totals and providing an approximate sense of the parts
 
-       As an alternative, consider pulling the stacked bars apart into a single ranking horizontal bar chart whose percentage totals add to 100%.
+   As an alternative, consider pulling the stacked bars apart into a single ranking horizontal bar chart whose percentage totals add to 100%.
    
-   #### Waterfall Chart
-   ![Waterfall](Choosing%20Pics/WATERFALL.PNG)
+  ![Waterfall](Choosing%20Pics/WATERFALL.PNG)
        
    Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
    
-   ### Scatterplot
    ![Scatterplot](Choosing%20Pics/SCATTERPLOT.PNG)
        
 Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens as an alternative.
 
 
-   ### Dot Plots
    ![Dot Plot](Choosing%20Pics/DOT_PLOT.PNG)
        
 Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
 
  
-   ### Box & Whisker Plots, and Violin
-   
    ![Boxplot](Choosing%20Pics/boxplot_iris.png)
     
 Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
@@ -150,8 +137,7 @@ Box & whisker plots display a large amount of distribution data in a single grap
    
 Violin plots provide a truer shape of the distribution than a boxplot.
  
-   ### Maps
-   ![US Map](Choosing%20Pics/USMap.PNG)
+   ![Map](Choosing%20Pics/USMap.PNG)
 Maps are valuable for displaying geospatial information. One can use intensities of color of a state or region on a map to reveal the data.
      
 
