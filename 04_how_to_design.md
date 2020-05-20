@@ -5,23 +5,23 @@ Some main techniques described in this section are related to decluttering to re
 ## It is Important to Declutter
 Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic programs tend to be overly busy and thus not enable the audience to process the message to efficienly process the message. One needs to expend the effort to declutter data vis in order to maximize the message delivery effectiveness.
 
-* Cognitive load is discussed in (Knaflic, YYYY). Taking in information consumes brain power. A viewer has limits on their short-term working memory. Since viewers can only store three to four chunks of information at a time, that means cluttered and poorly designed data vis increase a viewer's 'cognitive load' and reduce what can be retained. It is up to the data vis designer to use create with the audience's cognitive load in mind, lest the message gets lost or takes more time and energy away from other information they could absorb. Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the data more. Think 'less is 'more'.
+**Cognitive load** is discussed in (Knaflic, YYYY). Taking in information consumes brain power. A viewer has limits on their short-term working memory. Since viewers can only store three to four chunks of information at a time, that means cluttered and poorly designed data vis increase a viewer's 'cognitive load' and reduce what can be retained. It is up to the data vis designer to use create with the audience's cognitive load in mind, lest the message gets lost or takes more time and energy away from other information they could absorb. Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the data more. Think 'less is 'more'.
 
-* High Data-to-Ink Ratio is discussed in *The Visual Display of Quantitative Information* (Tufte, 2001). This means that each dot of 'ink' on the visual is valuable, and can be used to describe data or to clutter a visual. The author should create data vis with a high ratio of data *most relevant* to the message, compared to the amount of 'ink' used for text, lines, borders, or color/shading.
+**Data-to-Ink Ratio** is discussed in *The Visual Display of Quantitative Information* (Tufte, 2001). This means that each dot of 'ink' on the visual is valuable, and can be used to describe data or to clutter a visual. The author should create data vis with a high ratio of data *most relevant* to the message, compared to the amount of 'ink' used for text, lines, borders, or color/shading.
 
-* How to Declutter. 
-		* Remove the following entirely, or use gray to tone-down their cognitive load
-		* Borders; generally not needed and only clutter data ink from view
-		* Axis lines; the eye automatically sees a line created by the vertical or horizontal labels, or bars
-		* Gridlines; only keep if they serve a clear purpose
-		* Axis tick marks; keep the categorical label but remove the horizontal or vertical line marks '-' themselves
-		* Gray out data or text that is not the *focus* of the visual 
-		* Use shorter axis-names
-		* Omit Legends; Label data directly* 
-		* Combine the Title and the Message, or use callout box to clearly share the taekaway message for the reader
+**How to Declutter** - 	Remove the following entirely, or use gray to tone-down their cognitive load:
+	* Borders; generally not needed and only clutter data ink from view
+	* Axis lines; the eye automatically sees a line created by the vertical or horizontal labels, or bars
+	* Gridlines; only keep if they serve a clear purpose
+	* Axis tick marks; keep the categorical label but remove the horizontal or vertical line marks '-' themselves
+	* Gray out data or text that is not the *focus* of the visual 
+	* Use shorter axis-names
+	* Omit Legends; Label data directly* 
+	* Combine the Title and the Message, or use callout box to clearly share the taekaway message for the reader
 		
-* Legends are commonly used in graphs. However, the viewer must move their eyes back and forth from the graphed data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Another tip in this regard is to use the same color, weight, line-type, etc. for the text of the data label as for the data itself. This approach may not work for all graph types or data, however, if the lines in a line graph are crossing eachother. 
-* Y-axis labels should not use vertical text. It is common to see y-axis labels that are oriented at a 90-degree angle from the x-axis, reading upwards. Who reads this way? Vertical orientation is more difficult to read and is a form of cognitive load; at a minimum it slows down the users ability to quickly identify the axis. Instead, try arranging the vertical-axis label horizontally at the top left of the axis, or simply include the vertical axis label in the graph title.
+**Legends** are commonly used in graphs. However, the viewer must move their eyes back and forth from the graphed data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Another tip in this regard is to use the same color, weight, line-type, etc. for the text of the data label as for the data itself. This approach may not work for all graph types or data, however, if the lines in a line graph are crossing eachother. 
+
+**Y-axis labels** should not use vertical text. It is common to see y-axis labels that are oriented at a 90-degree angle from the x-axis, reading upwards. Who reads this way? Vertical orientation is more difficult to read and is a form of cognitive load; at a minimum it slows down the users ability to quickly identify the axis. Instead, try arranging the vertical-axis label horizontally at the top left of the axis, or simply include the vertical axis label in the graph title.
 		
 	
 ## How to Accentuate to Make the Data ‘Pop’
