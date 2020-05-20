@@ -52,21 +52,20 @@ Attributes of Color
 ![Some Examples of Preattentive Attributes](pictures/PAA.png)
 	
 				
-* To be Avoided
-** Pie Charts. The eye cannot easily distinguish the degree of an angle from another unless they are very different. Similarly, the human eye cannot distinguish the quantitative area of a given shape easily. For thos two reasons, pie charts are commonly used but not effective
+* Note that area, volume, angle, and depth are all omitted from preattentive attributes, since the human eye cannot easily decipher differences. This is why we should generaly avoid pie charts, 3D charts, area, and bubble charts. There are some exceptions, and some designers would say it might be ok to use pie charts with only two variables, or using treemap and bubble charts sparingly, but only to show generalities rather than precise differentiation between very similar quantities.
 
 Appendix
-	* Hierarchy of comparisons of magnitude
-		* Position along common scale
-		* Position along non-aligned scale
-		* Length
-		* Direction/Angle
-		* Area
-		* Color and Shading saturation
-		* Color hue
-		* Volume
-	* Hierarchy of identifying Categories
-		* Spatial Region
-		* Color
-		* Motion
+Some authors have attempted to rank the efficiency at which the eye can distinguish values, by mode of visualization.
+Below is a summary of Hierarchy of comparisons of magnitude:
+* Position along common scale
+* Position along non-aligned scale
+* Direction/Angle
+* Area
+* Color and Shading saturation
+* Color hue
+* Volume
+Hierarchy of identifying Categories
+* Spatial Region
+* Color
+* Motion
 		* Shape
