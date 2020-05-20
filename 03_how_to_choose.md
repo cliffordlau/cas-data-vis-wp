@@ -132,27 +132,5 @@ Box & whisker plots display a large amount of distribution data in a single grap
 Violin plots provide a truer shape of the distribution than a boxplot.
  
    ![Map](Choosing%20Pics/USMAP.PNG)
-Maps are valuable for displaying geospatial information. One can use intensities of color of a state or region on a map to reveal the data.
-     
-
- 
-
-(MOVED FROM PREV SECTION)
-
-#### Tables
-
- Tables are likely the most useful in the following situations:
-       * When the goal of the visualization is to **look up individual values**
-       * When the user needs a one-to-one comparison or to compare pairs of related variables
-       * When the goal of the visualization is to communicate to a diverse audience where each will look for their own value
-       *	Information needs to be read, such as across rows or down columns
-       *	Precision is important, as opposed to a general sense of the data from a graph
-       *	You have multiple data sets with different units of measure
-       *	You want to combine summary and detailed information
-       
- Tables are likely too detailed and time consuming for your reader to use during a live presentation.
-       
-       
- 
-   
-      
+Maps are valuable for displaying geospatial information. One can use intensities of color applied to a state to reveal the data value.
+    
