@@ -20,35 +20,40 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 		* Omit Legends; Label data directly* 
 		* Combine the Title and the Message, or use callout box to clearly share the taekaway message for the reader
 		
-*Legends are commonly used in graphs. The viewer typically has to move their eyes back and forth from the data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Another tip in this regard is to use the same color, weight, line-type, etc. for the text of the data label as for the data itself. This approach may not work for all graph types or data, however, if the lines in a line graph are crossing eachother. 
-* Y-axis labels. No vertical text. It is common to see y-axis labels that are oriented at a 90-degree angle from the x-axis, reading upwards. Who reads this way? Vertical orientation is more difficult to read and is a form of cognitive load; at a minimum it slows down the users ability to absorb the axis. One alternative to this is to include the vertical axis label in the title
+* Legends are commonly used in graphs. However, the viewer must move their eyes back and forth from the graphed data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Another tip in this regard is to use the same color, weight, line-type, etc. for the text of the data label as for the data itself. This approach may not work for all graph types or data, however, if the lines in a line graph are crossing eachother. 
+* Y-axis labels should not use vertical text. It is common to see y-axis labels that are oriented at a 90-degree angle from the x-axis, reading upwards. Who reads this way? Vertical orientation is more difficult to read and is a form of cognitive load; at a minimum it slows down the users ability to quickly identify the axis. Instead, try arranging the vertical-axis label horizontally at the top left of the axis, or simply include the vertical axis label in the graph title.
 		
 	
 ## How to Accentuate to Make the Data ‘Pop’
+We have nany tools to draw our viewers attention and  
+
+* Gestalt principles (from the Gestalt School of Psychology, 1912). These principles have identified how the brain works to visually connect things together and make sense of our world. The following principles apply:
+	* Proximity. The closer things are together, the brain naturally groups them together. We can design our data vis to direct our viewer to see the patterns or data the way we want them to.
+	* Similarity. Objects with similiar size, color, shape, font, or angular orientation are perceived by the brain to be part of the same group. 
+	* Enclosure. Using some type of border or shading can render data to be grouped together. The brain will attempt to enclose things that aren't even necessarily fully enclosed by a solid line. The brain will likely 'fill in' a dashed line to perceive it as ecnlosing something if it can be interpreted that way. 
+	* Continuity.  The brain may perceive a border to exist when objects are lined up (e.g. bars lined up along the x-axis could render a graph's x-axis border).
+	* Connection. This principle is commonly used in line graphs to literally 'connect the dots' for the viewer. (consider example of 4 dots  shown twice; once with vertical lines connecting two dots and another with horizontal lines connecting)
 	
-	* Gestalt principles (need reference; I think it is Gestalt School of Psychology 1912)
-	These principles have identified how the brain works to visually connect things together and make sense of our world. The following principles apply:
-		* Proximity. The closer things are together, the brain naturally groups them together. We can design our data vis to direct our viewer to see the patterns or data the way we want them to.
-		* Similarity. Objects with similiar size, color, shape, font, or angular orientation are perceived by the brain to be part of the same group. 
-		* Enclosure. Using some type of border or shading can render data to be grouped together. The brain will attempt to enclose things that aren't even necessarily fully enclosed by a solid line. The brain will likely 'fill in' a dashed line to perceive it as ecnlosing something if it can be interpreted that way. 
-		* Continuity.  The brain may perceive a border to exist when objects are lined up (e.g. bars lined up along the x-axis could render a graph's x-axis border).
-		* Connection. This principle is commonly used in line graphs to literally 'connect the dots' for the viewer. (consider example of 4 dots  shown twice; once with vertical lines connecting two dots and another with horizontal lines connecting)
+* Pre-attentive Attributes (*Show Me The Numbers*, Stephen Few). The human eye and brain are programmed to perceive a specific set of visual attributes very quickly and with a high rate of accuracy.
 	
-	* Pre-attentive Attributes (*Show Me The Numbers*, Stephen Few). The human eye and brain are programmed to perceive a specific set of visual attributes very quickly and with a high rate of accuracy.
-		* Attributes of Form
-			** Length. Can be quantitatively perceived.
-			** Width. Can be quantitatively perceived, but limited in accuracy.
-			** Size. Can be quantitatively perceived, but limited in accuracy.
-			** Shape. Cannot be quantitatively perceived.
-			** Orientation. Cannot be quantitatively perceived.
-			** Enclosure. Cannot be quantitatively perceived.
-		* Attributes of Color
-			** Hue. In everyday speak, hue refers to color. Hue can be described by the location on a standard color wheel. Color combinations that work well together, and are distinct enough from one another, can be found on the website ColorBrewer.org.
-			** Intensity. In everyday speak, intensity refers to 'fullness' of a color (saturation), and lightness or darkness of a given color.
-		* Spatial position in 2-Dimensions. We perceive and contrast vertical and horizontal position fairly well, in two dimensions. Our brains do not consistently or accurately perceive location in threee dimensions as well as two dimensions. This is why 3D graphs are to be avoided.
-						
+	* Attributes of Form
+		** Length. Can be quantitatively perceived.
+		** Width. Can be quantitatively perceived, but limited in accuracy.
+		** Size. Can be quantitatively perceived, but limited in accuracy.
+		** Shape. Cannot be quantitatively perceived.
+		** Orientation in 2D. Cannot be quantitatively perceived.
+		** Enclosure. Cannot be quantitatively perceived.
+		** Spatial position in 2-Dimensions. We perceive and contrast vertical and horizontal position fairly well, in two dimensions. Our brains do not consistently or accurately perceive location in threee dimensions as well as two dimensions. This is why 3D graphs are to be avoided.
+	
+	* Attributes of Color
+		** Hue refers to color. Hue can be described by the location on a standard color wheel. Color combinations that work well together, and are distinct enough from one another, can be found on the website ColorBrewer.org.
+		** Intensity refers to 'fullness' of a color (saturation), and lightness or darkness of a given color.
+		
+	* Some Examples	of Preattentive Attributes
+	
+				
 	* To be Avoided
-		* Pie Charts. The eye cannot easily distinguish the degree of an angle from another unless they are very different. Similarly, the human eye cannot distinguish the quantitative area of a given shape easily. For thos two reasons, pie charts are commonly used but not effective
+		** Pie Charts. The eye cannot easily distinguish the degree of an angle from another unless they are very different. Similarly, the human eye cannot distinguish the quantitative area of a given shape easily. For thos two reasons, pie charts are commonly used but not effective
 	
 	* Hierarchy of comparisons of magnitude
 		* Position along common scale
