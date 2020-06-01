@@ -1,0 +1,6 @@
+---
+title: "Introduction to Data Visualization"
+author: "Data visualization working party"
+site: bookdown::bookdown_site
+---
+
