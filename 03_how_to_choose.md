@@ -1,7 +1,9 @@
 # How to Choose the Type of Data Visualization
+
 Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
 ### 1.	Determine the Best Type of Visualization to Use
+
 Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they get the message. Ask yourself: "What is the message?". Try creating multiple versions for for that message, and ask a trusted colleague for feedback about which works best for the intended message.
 
 
@@ -31,6 +33,7 @@ Many authors have described which graph to choose depending on the situation and
  Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
 
 ### 3.	Visualizations to Avoid
+
 Many common visuals do not actually communicate the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
    a.	Pie and Donuts - the human eye can not accurately compare angles and area of pie or donut slices. Try stacked bar.

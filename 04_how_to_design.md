@@ -1,8 +1,10 @@
 # How to design the visualization
+
 In this section we provide some keys on how to design a data visualization to render a crisp graphic that highlights the message.
 Some main techniques described in this section are related to decluttering to remove what's not needed and to accentuating to highlight what is crucial.
 
 ## It is Important to Declutter
+
 Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic programs tend to be overly busy and thus not enable the audience to process the message to efficienly process the message. One needs to expend the effort to declutter data vis in order to maximize the message delivery effectiveness.
 
 **Cognitive load** is discussed in (Knaflic, YYYY). Taking in information consumes brain power. A viewer has limits on their short-term working memory. Since viewers can only store three to four chunks of information at a time, that means cluttered and poorly designed data vis increase a viewer's 'cognitive load' and reduce what can be retained. It is up to the data vis designer to use create with the audience's cognitive load in mind, lest the message gets lost or takes more time and energy away from other information they could absorb. Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the data more. Think 'less is 'more'.
@@ -25,6 +27,7 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 		
 	
 ## How to Accentuate to Make the Data ‘Pop’
+
 We have nany tools to draw our viewers attention and  
 
 **Gestalt principles** (from the Gestalt School of Psychology, 1912). These principles have identified how the brain works to visually connect things together and make sense of our world. The following principles apply:

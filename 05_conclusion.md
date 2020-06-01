@@ -1,4 +1,5 @@
 ### CONCLUSION
+
 We've offered basic principles and exmamples to get you started creating impactful sleek, modern data vis that will help convey your message efficiently and effectively.
 
 Think about who your audience is, what they know and what they *need* to know. Keep asking yourself and others **"What's the Message?"** throughout the data vis process. This is a simple way to ensure that the focus is on most important things to convey the message.
@@ -8,7 +9,7 @@ Horizontal bar graphs are good to use when the data labels are long since we rea
 
 Most graphs are overly complicated and cluttered with extraneous axis lines, tickmarks, borders. Remove that which doesn't help tell the message, or at least gray it out to deemphasize, letting the data itself be the star of the show.
 
-Make teh data pop out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data.
+Make the data pop out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data.
 Use Preattentive Attributes in choosing your visual (use length and relative position in 2D, rather than area and volume, for example). 
 Use Gestalt principles, which reflect the science of how the human eye perceives lines, bars, dots, etc. in space. e.g. the eye will notice things that are different.
 
