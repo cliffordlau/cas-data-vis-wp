@@ -1,0 +1,3 @@
+bookdown::word_document2:
+  keep_md: true
+  fig_caption: true

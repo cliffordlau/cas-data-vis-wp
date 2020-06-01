@@ -1,0 +1,14 @@
+book_filename: "intro_data_viz"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Section "
+
+rmd_files: [
+  "index.Rmd"
+  , "01_intro.md"
+  , "02_audience.md"
+  , "03_how_to_choose.md"
+  , "04_how_to_design.md"
+  , "05_conclusion.md"
+]
