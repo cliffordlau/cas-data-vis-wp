@@ -9,8 +9,6 @@ Horizontal bar graphs are good to use when the data labels are long since we rea
 
 Most graphs are overly complicated and cluttered with extraneous axis lines, tickmarks, borders. Remove that which doesn't help tell the message, or at least gray it out to deemphasize, letting the data itself be the star of the show.
 
-Make the data pop out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data.
-Use Preattentive Attributes in choosing your visual (use length and relative position in 2D, rather than area and volume, for example). 
-Use Gestalt principles, which reflect the science of how the human eye perceives lines, bars, dots, etc. in space. e.g. the eye will notice things that are different.
+Make the data pop out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data. Use Preattentive Attributes in choosing your visual (use length and relative position in 2D, rather than area and volume, for example). Use Gestalt principles, which reflect the science of how the human eye perceives lines, bars, dots, etc. in space. e.g. the eye will notice things that are different.
 
 Be creative and have fun creating data vis that will enlighten your audience and convey your message!
