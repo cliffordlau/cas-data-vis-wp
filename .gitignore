@@ -4,3 +4,4 @@
 .Rhistory
 *.zip
 _book
+!WPtemplate.docx
