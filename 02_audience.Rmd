@@ -1,4 +1,4 @@
-# Consider the Audience
+## Consider the Audience
 
 When we create data visualizations to present quantitative information, instead of jumping straight to the designing stage, we should first understand "the context for the need to communicate" [Knaflic, 2015, p. 18]. The context can be split into two parts: the target audience and the intended message.
 
