@@ -58,17 +58,17 @@ Many common visuals do not actually communicate the message effectively. Some re
 
 ## Examples
 
-![Text](Choosing%20Pics/TEXT.PNG)
+![Text](choosing_pics/TEXT.PNG)
 
 Simple text is useful when you have one or two numbers to show.
 
-![Table](Choosing%20Pics/TABLE.PNG)
+![Table](choosing_pics/TABLE.PNG)
 
-![Heatmap](Choosing%20Pics/HEATMAP.PNG)    
+![Heatmap](choosing_pics/HEATMAP.PNG)    
 
 Heatmaps can ease the identification of low and high values, or reveal data patterns.
 
-![Line](Choosing%20Pics/LINE.PNG)
+![Line](choosing_pics/LINE.PNG)
        
 Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
 
@@ -78,37 +78,37 @@ Line graphs are best for:
 * Combining a deviation relationship (such as a difference from plan)
 * Viewing a (smoothed) cumulative distribution, or multiple related histograms on a single graph.
 
-![Sparklines](Choosing%20Pics/Sparklines.PNG)
+![Sparklines](choosing_pics/Sparklines.PNG)
    
 Sparklines can be valuable for seeing trends or highlighting minimum and maximum values. Typically used in a minimalist way.
               
-![Slopegraph](Choosing%20Pics/SLOPEGRAPH.PNG)
+![Slopegraph](choosing_pics/SLOPEGRAPH.PNG)
    
 Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
 Slopegraphs can get cluttered, and should hence be avoided when there are too many overlapping lines.
 
-![Vertical Bar Example](Choosing%20Pics/VERTICAL_BAR.PNG)
+![Vertical Bar Example](choosing_pics/VERTICAL_BAR.PNG)
        
 Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
 Avoid using more than 3 sub-categories within bars, as this may obscure the intended message. 
 
-![Stacked Vertical Bar Example](Choosing%20Pics/STACKED_VERTICAL_BAR.PNG)
+![Stacked Vertical Bar Example](choosing_pics/STACKED_VERTICAL_BAR.PNG)
        
 Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 
-![Histogram](Choosing%20Pics/HISTOGRAM.PNG)
+![Histogram](choosing_pics/HISTOGRAM.PNG)
        
 A histogram is a vertical bar chart used to display a distribution.
 
-![Horiz](Choosing%20Pics/HORIZONTAL_BAR.PNG)
+![Horiz](choosing_pics/HORIZONTAL_BAR.PNG)
        
 Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
-![Stacked Horizontal Bar](Choosing%20Pics/STACKED_HORIZONTAL_BAR.PNG)
+![Stacked Horizontal Bar](choosing_pics/STACKED_HORIZONTAL_BAR.PNG)
 
-![Alternative Sacked Horizontal Bar](Choosing%20Pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
+![Alternative Sacked Horizontal Bar](choosing_pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
        
 Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
   
@@ -117,28 +117,28 @@ Stacked horizontal bar charts displaying absolute numbers or individual bars tha
 
 As an alternative, consider pulling the stacked bars apart into a single ranking horizontal bar chart whose percentage totals add to 100%.
    
-![Waterfall](Choosing%20Pics/WATERFALL.PNG)
+![Waterfall](choosing_pics/WATERFALL.PNG)
     
 Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
 
-![Scatterplot](Choosing%20Pics/SCATTERPLOT.PNG)
+![Scatterplot](choosing_pics/SCATTERPLOT.PNG)
     
 Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens as an alternative.
 
 
-![Dot Plot](Choosing%20Pics/DOT_PLOT.PNG)
+![Dot Plot](choosing_pics/DOT_PLOT.PNG)
     
 Dot plots are useful for nominal comparative relationships where you want to highlight differences that would be hard to see in a bar graph that must have a zero baseline. These are also useful for showing time series data not representing consistent intervals of time.
 
 
-![Boxplot](Choosing%20Pics/BOXPLOT_IRIS.PNG)
+![Boxplot](choosing_pics/BOXPLOT_IRIS.PNG)
  
 Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
        
-![Violin](Choosing%20Pics/VIOLIN_IRIS.PNG)
+![Violin](choosing_pics/VIOLIN_IRIS.PNG)
 
 Violin plots provide a truer shape of the distribution than a boxplot.
 
-![Map](Choosing%20Pics/USMAP.PNG)
+![Map](choosing_pics/USMAP.PNG)
    
 Maps are valuable for displaying geospatial information. One can use intensities of color applied to a state to reveal the data value.
