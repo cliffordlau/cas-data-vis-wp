@@ -1,4 +1,4 @@
-## Conclusion
+# Conclusion
 
 We've offered basic principles and exmamples to get you started creating impactful sleek, modern data vis that will help convey your message efficiently and effectively.
 
