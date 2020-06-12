@@ -11,4 +11,5 @@ rmd_files: [
   , "03_how_to_choose.Rmd"
   , "04_how_to_design.Rmd"
   , "05_conclusion.Rmd"
+  , "references.Rmd"
 ]
