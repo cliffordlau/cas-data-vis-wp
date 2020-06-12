@@ -7,3 +7,10 @@ link-citations: true
 nocite: '@*'
 ---
 
+::: {custom-style=Abstract}
+**Abstract:** abstracty abstractest
+:::
+
+:::{custom-style=keywords}
+**keywords:** data visualization, communication, gestalt principles
+:::
