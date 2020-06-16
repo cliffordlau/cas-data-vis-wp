@@ -12,7 +12,7 @@ With the explosion of data availability and tools to analyze it, we also need th
 
 ## Why Do All Actuaries Need to Learn Data Visualization Basics
 
-Actuaries excel at analyzing data and drawing conclusions from their work, However the **visual communication skills** through graphs, charts, tables, etc. are not on the exam syllabus, nor are they regularly taught or reinforced extensively. Nevertheless, actuaries must _regularly_ communicate complex patterns, trends, conclusions, ideas, and concepts with each other or non-actuarial business partners.
+Actuaries excel at analyzing data and drawing conclusions from their work, However the **visual communication skills** through graphs, charts, tables, etc. are not on the exam syllabus, nor are they regularly taught or reinforced. Nevertheless, actuaries must _regularly_ communicate complex patterns, trends, conclusions, ideas, and concepts with each other or non-actuarial business partners.
 
 I've always said to myself and others, "We can do the best work with the best data resulting in the best conclusion, but if we can't communicate it effectively, the message is LOST".
 
