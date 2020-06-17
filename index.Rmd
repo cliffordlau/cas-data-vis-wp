@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Data Visualization"
-author: "Data visualization working party"
+author: "Data Visualization Working Party"
 site: bookdown::bookdown_site
 bibliography: "references.bib"
 link-citations: true
