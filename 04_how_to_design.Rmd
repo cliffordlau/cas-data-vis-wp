@@ -1,7 +1,7 @@
 # How to design the visualization
 
 In this section we provide some keys on how to design a data visualization to render a crisp graphic that highlights the message.
-Some main techniques described in this section are related to decluttering to remove what's not needed and to accentuating to highlight what is crucial.
+Some main techniques described in this section are related to decluttering: removing what's not needed and highlighting what is crucial.
 
 ## It is Important to Declutter
 
