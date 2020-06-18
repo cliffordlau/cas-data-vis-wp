@@ -54,7 +54,7 @@ Many common visuals do not actually communicate the message effectively. Some re
 
 *	Have I tried other ways of displaying the information?
 
-*	Have I shown a draft visualization to another person for feedback on how effective it conveys the message?
+*	Have I shown a draft visualization to another person for feedback on how effectively it conveys the message?
 
 ## Examples
 
@@ -86,7 +86,7 @@ Sparklines can be valuable for seeing trends or highlighting minimum and maximum
    
 Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
-Slopegraphs can get cluttered, and should hence be avoided when there are too many overlapping lines.
+Slopegraphs can get cluttered, and should be avoided when there are too many overlapping lines.
 
 ![Vertical Bar Example](choosing_pics/VERTICAL_BAR.PNG)
        
