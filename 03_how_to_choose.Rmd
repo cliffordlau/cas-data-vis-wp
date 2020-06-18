@@ -133,7 +133,7 @@ Dot plots are useful for nominal comparative relationships where you want to hig
 
 ![Boxplot](choosing_pics/BOXPLOT_IRIS.PNG)
  
-Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
+Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is needed: high, median, and low box plot without whiskers
        
 ![Violin](choosing_pics/VIOLIN_IRIS.PNG)
 
