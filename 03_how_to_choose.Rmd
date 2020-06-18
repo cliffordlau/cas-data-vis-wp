@@ -88,13 +88,13 @@ Slopegraphs can be useful when showing data for just two time periods and you wa
 
 Slopegraphs can get cluttered, and should be avoided when there are too many overlapping lines.
 
-![Vertical Bar Example](choosing_pics/VERTICAL_BAR.PNG)
+![Vertical Bar](choosing_pics/VERTICAL_BAR.PNG)
        
 Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
 Avoid using more than 3 sub-categories within bars, as this may obscure the intended message. 
 
-![Stacked Vertical Bar Example](choosing_pics/STACKED_VERTICAL_BAR.PNG)
+![Stacked Vertical Bar](choosing_pics/STACKED_VERTICAL_BAR.PNG)
        
 Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 
@@ -102,13 +102,13 @@ Use caution in using stacked vertical bar charts, as it can be hard to compare s
        
 A histogram is a vertical bar chart used to display a distribution.
 
-![Horiz](choosing_pics/HORIZONTAL_BAR.PNG)
+![Horizontal Bar](choosing_pics/HORIZONTAL_BAR.PNG)
        
 Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
 ![Stacked Horizontal Bar](choosing_pics/STACKED_HORIZONTAL_BAR.PNG)
 
-![Alternative Sacked Horizontal Bar](choosing_pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
+![Alternative Stacked Horizontal Bar](choosing_pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
        
 Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
   
@@ -123,7 +123,7 @@ Waterfall charts are useful to show a starting point, incremental increases and/
 
 ![Scatterplot](choosing_pics/SCATTERPLOT.PNG)
     
-Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens as an alternative.
+Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens, as an alternative.
 
 
 ![Dot Plot](choosing_pics/DOT_PLOT.PNG)
