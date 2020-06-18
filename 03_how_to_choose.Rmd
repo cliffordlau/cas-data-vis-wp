@@ -11,11 +11,11 @@ Many authors have described which graph to choose depending on the situation and
 
 Line
 
-1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution, 
+1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution 
 2. Slopegraph - comparison of multiple variables at once, for two points in time 
 3. Sparklines - small version of minimalist line graph, shows changes in value over time at-a-glance
 
-Bar (Verical or Horizontal)
+Bar (Vertical or Horizontal)
 
 1. Ranking or simple value comparison
 2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable
@@ -29,11 +29,11 @@ Scatterplot
       
 Text - when a key single value is all that needs to be communicated. 
 
-Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, however, can be used effectively to communicate a trend or relationship as a message.
+Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, and can be used effectively to communicate a trend or relationship as a message.
 
 Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
 
-Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
+Of course there are others, such as maps to compare states, box plot and violin charts to show distributions, etc.
 
 ### Visualizations to Avoid
 
