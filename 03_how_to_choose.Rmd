@@ -11,11 +11,11 @@ Many authors have described which graph to choose depending on the situation and
 
 Line
 
-1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution, 
+1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution 
 2. Slopegraph - comparison of multiple variables at once, for two points in time 
 3. Sparklines - small version of minimalist line graph, shows changes in value over time at-a-glance
 
-Bar (Verical or Horizontal)
+Bar (Vertical or Horizontal)
 
 1. Ranking or simple value comparison
 2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable
@@ -29,11 +29,11 @@ Scatterplot
       
 Text - when a key single value is all that needs to be communicated. 
 
-Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, however, can be used effectively to communicate a trend or relationship as a message.
+Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, and can be used effectively to communicate a trend or relationship as a message.
 
 Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
 
-Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
+Of course there are others, such as maps to compare states, box plot and violin charts to show distributions, etc.
 
 ### Visualizations to Avoid
 
@@ -54,7 +54,7 @@ Many common visuals do not actually communicate the message effectively. Some re
 
 *	Have I tried other ways of displaying the information?
 
-*	Have I shown a draft visualization to another person for feedback on how effective it conveys the message?
+*	Have I shown a draft visualization to another person for feedback on how effectively it conveys the message?
 
 ## Examples
 
@@ -86,15 +86,15 @@ Sparklines can be valuable for seeing trends or highlighting minimum and maximum
    
 Slopegraphs can be useful when showing data for just two time periods and you want to easily show relative decreases or increases among several categories.
 
-Slopegraphs can get cluttered, and should hence be avoided when there are too many overlapping lines.
+Slopegraphs can get cluttered, and should be avoided when there are too many overlapping lines.
 
-![Vertical Bar Example](choosing_pics/VERTICAL_BAR.PNG)
+![Vertical Bar](choosing_pics/VERTICAL_BAR.PNG)
        
 Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
 Avoid using more than 3 sub-categories within bars, as this may obscure the intended message. 
 
-![Stacked Vertical Bar Example](choosing_pics/STACKED_VERTICAL_BAR.PNG)
+![Stacked Vertical Bar](choosing_pics/STACKED_VERTICAL_BAR.PNG)
        
 Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 
@@ -102,13 +102,13 @@ Use caution in using stacked vertical bar charts, as it can be hard to compare s
        
 A histogram is a vertical bar chart used to display a distribution.
 
-![Horiz](choosing_pics/HORIZONTAL_BAR.PNG)
+![Horizontal Bar](choosing_pics/HORIZONTAL_BAR.PNG)
        
 Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
 ![Stacked Horizontal Bar](choosing_pics/STACKED_HORIZONTAL_BAR.PNG)
 
-![Alternative Sacked Horizontal Bar](choosing_pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
+![Alternative Stacked Horizontal Bar](choosing_pics/ALTERNATIVE_STACKED_HORIZONTAL_BAR.PNG)
        
 Stacked horizontal bar charts displaying absolute numbers or individual bars that sum to 100% can be useful for:
   
@@ -123,7 +123,7 @@ Waterfall charts are useful to show a starting point, incremental increases and/
 
 ![Scatterplot](choosing_pics/SCATTERPLOT.PNG)
     
-Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens as an alternative.
+Scatterplots are useful to show the relationship between two variables or correlations between items. Use care when using scatterplots as they are not well understood by all audiences. Consider using two horizontal bar charts side-by-side organized in the same order, also called a table lens, as an alternative.
 
 
 ![Dot Plot](choosing_pics/DOT_PLOT.PNG)
@@ -133,7 +133,7 @@ Dot plots are useful for nominal comparative relationships where you want to hig
 
 ![Boxplot](choosing_pics/BOXPLOT_IRIS.PNG)
  
-Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is neededa high, median, and low box plot without whiskers
+Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is needed: high, median, and low box plot without whiskers
        
 ![Violin](choosing_pics/VIOLIN_IRIS.PNG)
 

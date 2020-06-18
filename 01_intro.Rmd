@@ -1,6 +1,6 @@
 # Definition of “Data Visualization”
 
-Visualizations are everywhere. Data and information is becoming more accessible all the time. To absorb and utilize the value from all this data, we must incorporate the concept of "data visualization" (data vis). **Simply, data visualization refers to data represented by a visual image**. Some of the most common and basic data vis applications include bar graphs, line graphs, and scatterplots. The general design concepts in this publicaion apply to any type of data visualization in any mode (Excel, Powerpoint, R, other programming languages).
+Visualizations are everywhere. Data and information is becoming more accessible all the time. To absorb and utilize the value from all this data, we must incorporate the concept of "data visualization" (data vis). **Simply, data visualization refers to data represented by a visual image**. Some of the most common and basic data vis applications include bar graphs, line graphs, and scatterplots. The general design concepts in this publication apply to any type of data visualization in any mode (Excel, Powerpoint, R, other programming languages).
 
 ## Background
 
@@ -12,10 +12,10 @@ With the explosion of data availability and tools to analyze it, we also need th
 
 ## Why Do All Actuaries Need to Learn Data Visualization Basics
 
-Actuaries excel at analyzing data and drawing conclusions from their work, However the **visual communication skills** through graphs, charts, tables, etc. are not on the exam syllabus, nor are they regularly taught or reinforced extensively. Nevertheless, actuaries must _regularly_ communicate complex patterns, trends, conclusions, ideas, and concepts with each other or non-actuarial business partners.
+Actuaries excel at analyzing data and drawing conclusions from their work, However the **visual communication skills** through graphs, charts, tables, etc. are not on the exam syllabus, nor are they regularly taught or reinforced. Nevertheless, actuaries must _regularly_ communicate complex patterns, trends, conclusions, ideas, and concepts with each other or non-actuarial business partners.
 
 I've always said to myself and others, "We can do the best work with the best data resulting in the best conclusion, but if we can't communicate it effectively, the message is LOST".
 
 With a little knowledge, practice, and effort, actuaries can create visualizations that enable viewers to absorb the clear message that we intend to send. In this paper, we hope to provide practical tips to make your data visualizations sing!
 
-This paper will walk through the basics of data visualization as follows: First, we will focus on the audience, those individuals with whom we will be communicating. Next, we will review some of the basic vizualization types and how to choose from among them based on your data and your needs. Finally, we will share thoughts about how to design the resultant visualization for maximum impact.
+This paper will walk through the basics of data visualization as follows: first, we will focus on the audience, those individuals with whom we will be communicating. Next, we will review some of the basic visualization types and how to choose from among them based on your data and your needs. Finally, we will share thoughts about how to design the resultant visualization for maximum impact.
