@@ -1,7 +1,7 @@
 # How to design the visualization
 
 In this section we provide some keys on how to design a data visualization to render a crisp graphic that highlights the message.
-Some main techniques described in this section are related to decluttering: removing what's not needed and highlighting what is crucial.
+Some main techniques described in this section are related to decluttering: removing what's not needed and accentuate what is crucial.
 
 ## It is Important to Declutter
 
@@ -29,13 +29,13 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 
 ## How to Accentuate to Make the Data ‘Pop’
 
-We have nany tools to draw our viewers attention and  
+We have many tools to draw our viewers attention and highlight elements important to the message.
 
 **Gestalt principles** (from the Gestalt School of Psychology, 1912). These principles have identified how the brain works to visually connect things together and make sense of our world. The following principles apply:
 	
-* Proximity. The closer things are together, the brain naturally groups them together. We can design our data vis to direct our viewer to see the patterns or data the way we want them to.
-* Similarity. Objects with similiar size, color, shape, font, or angular orientation are perceived by the brain to be part of the same group. 
-* Enclosure. Using some type of border or shading can render data to be grouped together. The brain will attempt to enclose things that aren't even necessarily fully enclosed by a solid line. The brain will likely 'fill in' a dashed line to perceive it as ecnlosing something if it can be interpreted that way. 
+* Proximity. The closer things are together, the more the brain naturally groups them together. We can design our data vis to direct our viewer to see the patterns or data the way we want them to.
+* Similarity. Objects with similar size, color, shape, font, or angular orientation are perceived by the brain to be part of the same group. 
+* Enclosure. Using some type of border or shading can render data to be grouped together. The brain will attempt to enclose things that aren't even necessarily fully enclosed by a solid line. The brain will likely 'fill in' a dashed line to perceive it as enclosing something if it can be interpreted that way. 
 * Continuity.  The brain may perceive a border to exist when objects are lined up (e.g. bars lined up along the x-axis could render a graph's x-axis border).
 * Connection. This principle is commonly used in line graphs to literally 'connect the dots' for the viewer. (consider example of 4 dots  shown twice; once with vertical lines connecting two dots and another with horizontal lines connecting)
 	
@@ -49,7 +49,7 @@ Attributes of Form
 * Shape. Cannot be quantitatively perceived.
 * Orientation in 2D. Cannot be quantitatively perceived.
 * Enclosure. Cannot be quantitatively perceived.
-* Spatial position in 2-Dimensions. We perceive and contrast vertical and horizontal position fairly well, in two dimensions. Our brains do not consistently or accurately perceive location in threee dimensions as well as two dimensions. This is why 3D graphs are to be avoided.
+* Spatial position in 2-Dimensions. We perceive and contrast vertical and horizontal position fairly well, in two dimensions. Our brains do not consistently or accurately perceive location in three dimensions as well as two dimensions. This is why 3D graphs are to be avoided.
 	
 Attributes of Color
 
@@ -58,7 +58,7 @@ Attributes of Color
 		
 ![Some Examples of Preattentive Attributes](pictures/PAA.png)
 
-* Note that area, volume, angle, and depth are all omitted from preattentive attributes, since the human eye cannot easily decipher differences. This is why we should generaly avoid pie charts, 3D charts, area, and bubble charts. There are some exceptions, and some designers would say it might be ok to use pie charts with only two variables, or using treemap and bubble charts sparingly, but only to show generalities rather than precise differentiation between very similar quantities.
+* Note that area, volume, angle, and depth are all omitted from pre-attentive attributes, since the human eye cannot easily decipher differences. This is why we should generally avoid pie charts, 3D charts, area, and bubble charts. There are some exceptions, and some designers would say it might be ok to use pie charts with only two variables, or using treemap and bubble charts sparingly, but only to show generalities rather than precise differentiation between very similar quantities.
 
 ## Appendix
 
