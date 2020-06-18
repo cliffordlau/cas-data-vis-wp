@@ -19,10 +19,10 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 * Axis tick marks; keep the categorical label but remove the horizontal or vertical line marks '-' themselves
 * Gray out data or text that is not the *focus* of the visual 
 * Use shorter axis-names
-* Omit Legends; Label data directly* 
-* Combine the Title and the Message, or use callout box to clearly share the taekaway message for the reader
+* Omit Legends; Label data directly
+* Combine the Title and the Message, or use callout box to clearly share the takeaway message for the reader
 		
-**Legends** are commonly used in graphs. However, the viewer must move their eyes back and forth from the graphed data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Another tip in this regard is to use the same color, weight, line-type, etc. for the text of the data label as for the data itself. This approach may not work for all graph types or data, however, if the lines in a line graph are crossing eachother. 
+**Legends** are commonly used in graphs. However, the viewer must move their eyes back and forth from the graphed data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Another tip in this regard is to use the same color, weight, line-type, etc. for the text of the data label as for the data itself. This approach may not work for all graph types or data, however, if the lines in a line graph are crossing each other. 
 
 **Y-axis labels** should not use vertical text. It is common to see y-axis labels that are oriented at a 90-degree angle from the x-axis, reading upwards. Who reads this way? Vertical orientation is more difficult to read and is a form of cognitive load; at a minimum it slows down the users ability to quickly identify the axis. Instead, try arranging the vertical-axis label horizontally at the top left of the axis, or simply include the vertical axis label in the graph title.
 		
