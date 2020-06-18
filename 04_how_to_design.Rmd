@@ -56,7 +56,7 @@ Attributes of Color
 * Hue refers to color. Hue can be described by the location on a standard color wheel. Color combinations that work well together, and are distinct enough from one another, can be found on the website ColorBrewer.org.
 * Intensity refers to 'fullness' of a color (saturation), and lightness or darkness of a given color.
 		
-![Some Examples of Preattentive Attributes](pictures/PAA.png)
+![Some Examples of Preattentive Attributes](choosing_pics/PREATTENTIVE_ATTRIBUTES.png)
 
 * Note that area, volume, angle, and depth are all omitted from pre-attentive attributes, since the human eye cannot easily decipher differences. This is why we should generally avoid pie charts, 3D charts, area, and bubble charts. There are some exceptions, and some designers would say it might be ok to use pie charts with only two variables, or using treemap and bubble charts sparingly, but only to show generalities rather than precise differentiation between very similar quantities.
 
