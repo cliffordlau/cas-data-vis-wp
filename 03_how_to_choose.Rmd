@@ -1,45 +1,45 @@
-# How to Choose the Type of Data Visualization
+# 3. How to Choose the Type of Data Visualization
 
 Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
-### Determine the Best Type of Visualization to Use
+### 3.1.1 Determine the Best Type of Visualization to Use
 
-Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they get the message. Ask yourself: "What is the message?". Try creating multiple versions for for that message, and ask a trusted colleague for feedback about which works best for the intended message.
+Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they understand and act on the message. Repeatedly ask yourself: "What is the message?", and decide whether it is clearly delivered. Try creating multiple visualizations for that message, and ask a trusted colleague for feedback about which works best for the intended message.
 
 
-### Overview of Main Types of Visuals and Key Uses
+### 3.1.2 Overview of Main Types of Visuals and Key Uses
 
-Line
+LINE
 
-1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution, 
+1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution 
 2. Slopegraph - comparison of multiple variables at once, for two points in time 
 3. Sparklines - small version of minimalist line graph, shows changes in value over time at-a-glance
 
-Bar (Verical or Horizontal)
+BAR (Vertical or Horizontal)
 
-1. Ranking or simple value comparison
+1. Value comparison, or ranking
 2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable
-3. Histogram - distribution of values
+3. Histogram (i.e., distribution of values)
    
-Scatterplot 
+SCATTERPLOT
 
 1. Exploratory data analysis
 2. Correlation between two variables
 3. Time series
       
-Text - when a key single value is all that needs to be communicated. 
+TEXT - when a key single value is all that needs to be communicated. 
 
-Table - best to be used only for a lookup reference table rather than communicating a message, since tables get cluttered so easily. However, a heatmap table is a variation on a table with color-intensity-encoded cells to highlight high and low values, however, can be used effectively to communicate a trend or relationship as a message.
+TABLE - best used only as a lookup reference table, rather than for communicating a message, since tables get cluttered so easily and don't otherwise send a clear message. However, a heatmap table is a variation of a table with color-intensity-encoded cells to highlight high and low values, and can be used effectively to communicate a trend or relationship.
 
-Small Multiples (i.e., Trellis charts) - can be used with any type of data vis, to compare many variables or categories at once, to observe relationships or correlation of each combination of categories at the same time.
+SMALL MULTIPLES (i.e., Facet, or Trellis charts) - can be used with any type of data visualization, to compare many variables or categories at once, to observe relationships or the correlation of each combination of two categories.
 
-Of course there are others, such as maps to compare states, box plot and violin charts to show ditributions, etc.
+Of course there are many others, such as MAPSs to compare states, and BOXPLOT and VIOLIN charts to show distributions, etc.
 
-### Visualizations to Avoid
+### 3.1.3 Visualizations to Avoid
 
-Many common visuals do not actually communicate the message effectively. Some reasons include scientific understanding about how the human eye works and what is most quickly, easily, and effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
+Many common visualizations do not actually communicate the message effectively. Some reasons for this include science about how the human eye and brain work, and what is most effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
-* Pie and Donuts - the human eye can not accurately compare angles and area of pie or donut slices. Try stacked bar.
+* Pies and Donuts - the human eye can not accurately compare angles and area of pie or donut slices. Try stacked bar.
 
 * 3D - due to the perspective, the human eye cannot accurately compare relative values three dimensionally. Try using color.
 
@@ -54,9 +54,9 @@ Many common visuals do not actually communicate the message effectively. Some re
 
 *	Have I tried other ways of displaying the information?
 
-*	Have I shown a draft visualization to another person for feedback on how effective it conveys the message?
+*	Have I shown a draft visualization to another person for feedback on how effectively it conveys the message?
 
-## Examples
+## 3.2 Examples
 
 ![Text](choosing_pics/TEXT.PNG)
 
