@@ -48,7 +48,7 @@ Many common visualizations do not actually communicate the message effectively. 
 * Double-Axis - too much for a reader to process quickly and effectively. Try separating the graphs vertically with the same x-axis and different y-axes.
 
      
-### Questions to help determine which type of visualization to use:
+### 3.1.4 Questions to help determine which type of visualization to use:
 
 *	What is the **simplest** way the information can be conveyed?
 
@@ -58,9 +58,11 @@ Many common visualizations do not actually communicate the message effectively. 
 
 ## 3.2 Examples
 
-![Text](choosing_pics/TEXT.PNG)
+![Text]
+[Text]
 
 Simple text is useful when you have one or two numbers to show.
+!(choosing_pics/TEXT.PNG)
 
 ![Table](choosing_pics/TABLE.PNG)
 
