@@ -122,7 +122,3 @@ knitr::include_graphics('figures/market_share_right.png')
 
 Which one would you rather see as a viewer? With some effort and knowledge, you can see dramatic improvements in getting the message across, and reducing the cognitive load of the viewer.
 
-
-## Appendix
-
-Some authors have attempted to rank the efficiency at which the eye can distinguish values, by visualization technique. 
