@@ -19,6 +19,7 @@ I've always said to myself and others, "We can do the best work with the best da
 With some knowledge and practice, actuaries can create effective data visualization. In this paper, we hope to provide practical tips to make your message clear through data visualization.
 
 This paper will walk through the basics of data visualization as follows: 
+
 * First, we will focus on the **audience**, those individuals with whom we will be communicating. 
 * Next, we will review some of the basic **visualization types and how to choose** from among them based on your data and your needs.
 * Finally, we will share thoughts about **how to design a visualization** for maximum impact.

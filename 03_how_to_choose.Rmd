@@ -1,13 +1,13 @@
-# 3. How to Choose the Type of Data Visualization
+# How to Choose the Type of Data Visualization
 
 Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
-### 3.1.1 Determine the Best Type of Visualization to Use
+### Determine the Best Type of Visualization to Use
 
 Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they understand and act on the message. Repeatedly ask yourself: "What is the message?", and decide whether it is clearly delivered. Try creating multiple visualizations for that message, and ask a trusted colleague for feedback about which works best for the intended message.
 
 
-### 3.1.2 Overview of Main Types of Visuals and Key Uses
+### Overview of Main Types of Visuals and Key Uses
 
 LINE
 
@@ -35,7 +35,7 @@ SMALL MULTIPLES (i.e., Facet, or Trellis charts) - can be used with any type of 
 
 Of course there are many others, such as MAPSs to compare states, and BOXPLOT and VIOLIN charts to show distributions, etc.
 
-### 3.1.3 Visualizations to Avoid
+### Visualizations to Avoid
 
 Many common visualizations do not actually communicate the message effectively. Some reasons for this include science about how the human eye and brain work, and what is most effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
@@ -48,7 +48,7 @@ Many common visualizations do not actually communicate the message effectively. 
 * Double-Axis - too much for a reader to process quickly and effectively. Try separating the graphs vertically with the same x-axis and different y-axes.
 
      
-### 3.1.4 Questions to help determine which type of visualization to use:
+### Questions to help determine which type of visualization to use:
 
 *	What is the **simplest** way the information can be conveyed?
 
@@ -56,7 +56,7 @@ Many common visualizations do not actually communicate the message effectively. 
 
 *	Have I shown a draft visualization to another person for feedback on how effectively it conveys the message?
 
-## 3.2 Examples
+## Examples
 
 ![Text]
 [Text]
