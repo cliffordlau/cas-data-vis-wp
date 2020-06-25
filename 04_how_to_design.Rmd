@@ -1,5 +1,11 @@
 # How to design the visualization
 
+```{r include = FALSE}
+knitr::opts_chunk$set(
+   echo = FALSE
+)
+```
+
 In this section we provide some techniques for how to design a data visualization to render a crisp graphic that highlights the message.
 Two techniques described in this section are:
 
@@ -71,15 +77,16 @@ Attributes of Color
 
 * Hue refers to color. Hue can be described by the location on a standard color wheel. Color combinations that work well together, and are distinct enough from one another, can be found on the website ColorBrewer.org.
 * Intensity refers to 'fullness' of a color (saturation), and lightness or darkness of a given color.
-		
-!(choosing_pics/PREATTENTIVEATTRIBUTES.png)
 
+```{r}
+knitr::include_graphics('figures/PREATTENTIVE_ATTRIBUTES.PNG')
+```
+		
 * Note that _area, volume, angle, and depth are all omitted from the list of pre-attentive attributes_, since the human eye cannot easily decipher differences in these. This is why we should generally avoid pie, 3D, area, and bubble charts. There are some exceptions. For example, some designers would say it might be ok to use pie charts with only two variables. Some others might say that it is ok to use treemap and bubble charts sparingly, to show generalities rather than precise differentiation between very similar quantities.
 
 ## Appendix
 
 Some authors have attempted to rank the efficiency at which the eye can distinguish values, by visualization technique. 
-
 
 ## Hierarchy of Comparisons of Magnitude
 

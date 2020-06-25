@@ -1,11 +1,16 @@
 # How to Choose the Type of Data Visualization
 
+```{r include = FALSE}
+knitr::opts_chunk$set(
+   echo = FALSE
+)
+```
+
 Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
 
 ### Determine the Best Type of Visualization to Use
 
 Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they understand and act on the message. Repeatedly ask yourself: "What is the message?", and decide whether it is clearly delivered. Try creating multiple visualizations for that message, and ask a trusted colleague for feedback about which works best for the intended message.
-
 
 ### Overview of Main Types of Visuals and Key Uses
 
@@ -58,22 +63,33 @@ Many common visualizations do not actually communicate the message effectively. 
 
 ## Examples
 
-![Text]
-[Text]
+<!--
+![Text] 
+ [Text] 
+-->
 
 Simple text is useful when you have one or two numbers to show.
-!(choosing_pics/TEXT.PNG)
 
-!(choosing_pics/TABLE.PNG)
-[Table]
+```{r }
+knitr::include_graphics('figures/TEXT.PNG')
+```
+
+```{r }
+knitr::include_graphics('figures/TABLE.PNG')
+```
+
 A simple table is best used only as a lookup reference table and not for communicating larger messages. Try a heatmap table as shown next
 
-![Heatmap](choosing_pics/HEATMAP.PNG)    
+```{r }
+knitr::include_graphics('figures/HEATMAP.PNG')
+```
 
 Heatmaps can ease the interpretation of tables by identifying relatively low and high values, or reveal data patterns.
 
-![Line](choosing_pics/LINE.PNG)
-       
+```{r }
+knitr::include_graphics('figures/LINE.PNG')
+```
+
 Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
 
 Line graphs are best for:
@@ -82,55 +98,79 @@ Line graphs are best for:
 * Combining a deviation relationship (such as a difference from plan)
 * Viewing a (smoothed) cumulative distribution.
 
-![Sparklines](choosing_pics/Sparklines.PNG)
-   
+```{r }
+knitr::include_graphics('figures/Sparklines.PNG')
+```
+
 Sparklines can be valuable for seeing trends at-a-glance or highlighting minimum and maximum values. Typically used in a minimalist way.
+
+```{r }
+knitr::include_graphics('figures/SLOPEGRAPH.PNG')
+```
               
-![Slopegraph](choosing_pics/SLOPEGRAPH.PNG)
-   
 Slopegraphs can be useful when showing data for just two time periods and when you want to easily show relative decreases or increases among several categories. These graphs can get cluttered, and should be avoided when there are too many overlapping lines.
 
-![Vertical Bar](choosing_pics/VERTICAL_BAR.PNG)
-       
+```{r }
+knitr::include_graphics('figures/VERTICAL_BAR.PNG')
+```
+
 Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
-![Stacked Vertical Bar](choosing_pics/STACKED_VERTICAL_BAR.PNG)
-       
+```{r }
+knitr::include_graphics('figures/STACKED_VERTICAL_BAR.PNG')
+```
+
 Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 Avoid using more than two or three sub-categories within bars, as this may obscure the intended message. 
 
-![Histogram](choosing_pics/HISTOGRAM.PNG)
-       
+```{r }
+knitr::include_graphics('figures/HISTOGRAM.PNG')
+```
+
 A histogram is a vertical bar chart used to display a distribution.
 
-!(choosing_pics/HORIZONTAL_BAR.PNG)
-       
+```{r }
+knitr::include_graphics('figures/HORIZONTAL_BAR.PNG')
+```
+
 Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
-!(choosing_pics/STACKED_HORIZONTAL_BAR.PNG)
+```{r }
+knitr::include_graphics('figures/STACKED_HORIZONTAL_BAR.PNG')
+```
 
-  
-!(choosing_pics/WATERFALL.PNG)
-    
+```{r }
+knitr::include_graphics('figures/WATERFALL.PNG')
+```
+
 Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
 
-![Scatterplot](choosing_pics/SCATTERPLOT.PNG)
-    
+```{r }
+knitr::include_graphics('figures/SCATTERPLOT.PNG')
+```
+
 Scatterplots are useful to show the relationship between two variables or the correlations between them. Use care when using scatterplots as they are not well understood by all audiences. 
 
+```{r }
+knitr::include_graphics('figures/DOT_PLOT.PNG')
+```
 
-![Dot Plot](choosing_pics/DOT_PLOT.PNG)
-    
 Dot plots are useful for nominal comparative relationships when you want to highlight differences that would be hard to see in a bar graph that has zero as the baseline. Dot pots are also useful for showing time series data not representing consistent intervals of time.
 
-!(choosing_pics/BOXPLOT_IRIS.PNG)
- 
+```{r }
+knitr::include_graphics('figures/BOXPLOT_IRIS.PNG')
+```
+
 Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is needed.
-       
-![Violin](choosing_pics/VIOLIN_IRIS.PNG)
+
+```{r }
+knitr::include_graphics('figures/VIOLIN_IRIS.PNG')
+```
 
 Violin plots provide a truer shape of the distribution than a boxplot.
 
-![Map](choosing_pics/USMAP.PNG)
-   
+```{r }
+knitr::include_graphics('figures/USMAP.PNG')
+```
+
 Maps are valuable for displaying geospatial information. One can use intensities of color by state or region to reveal the data value.
