@@ -18,7 +18,7 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 
 ### Cognitive Load
 
-is a concept discussed in [@Knaflic, 2015]. Consuming information takes brain power. A viewer has limits on their short-term working memory. Viewers can only store three to four pieces of information at a time, which means that cluttered and poorly designed data visualizations increase a viewer's 'cognitive load' and reduce what they can retain. The data visualization author must design with the audience's cognitive load in mind. Without this consideration, the message gets lost altogether or takes the audience more time and energy to absorb (i.e. more than they may be willing or able to expend). Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the relevant data and message more clearly. Think "less is more".
+is a concept discussed in [@Knaflic]. Consuming information takes brain power. A viewer has limits on their short-term working memory. Viewers can only store three to four pieces of information at a time, which means that cluttered and poorly designed data visualizations increase a viewer's 'cognitive load' and reduce what they can retain. The data visualization author must design with the audience's cognitive load in mind. Without this consideration, the message gets lost altogether or takes the audience more time and energy to absorb (i.e. more than they may be willing or able to expend). Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the relevant data and message more clearly. Think "less is more".
 
 ### Data-to-Ink Ratio 
 
