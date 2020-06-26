@@ -1,4 +1,4 @@
-# Consider the audience and the message
+# Consider the audience and the message {#sec-audience}
 
 When we create data visualizations to present quantitative information, instead of jumping straight to the designing stage, we should first understand "the context for the need to communicate" [@Knaflic]. The context can be split into two parts: the target audience and the intended message.
 

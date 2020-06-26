@@ -8,6 +8,7 @@ rmd_files: [
   "index.Rmd"
   , "01_intro.Rmd"
   , "02_audience.Rmd"
+  , "02a_visualization_framework.Rmd"
   , "03_how_to_choose.Rmd"
   , "04_how_to_design.Rmd"
   , "05_conclusion.Rmd"
