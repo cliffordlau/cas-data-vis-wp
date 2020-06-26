@@ -1,4 +1,4 @@
-# Consider the audience
+# Consider the audience and the message
 
 When we create data visualizations to present quantitative information, instead of jumping straight to the designing stage, we should first understand "the context for the need to communicate" [@Knaflic]. The context can be split into two parts: the target audience and the intended message.
 
@@ -14,7 +14,7 @@ We must tailor the visualizations to a specific audience group to maximize the e
 
 After defining the target audience group, the presenter should know the audience's technical knowledge level. Without careful attention to data visualization, actuarial analyses can be too technical and difficult to comprehend for non-actuarial groups to comprehend fully, especially with the large collection of actuarial acronyms, terms, and methods. When designing a visualization for non-actuarial audience, consider putting yourself in their shoes by asking yourself "What is their perspective?" and "What do they know?". Actuarial audiences will also understand and absorb the information more effectively if it is presented simply, no matter how technical the material, with their knowledge level in mind.
 
-## "What is the message?"
+## What is the message?
 
 When crafting visuals, a content creator should continually ask themselves and fellow workers **"What is the message?"**. Asking this question and the other related questions below helps refine the content, complexity, and nature of visual presentations.
 
