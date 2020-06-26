@@ -88,6 +88,7 @@ Attributes of Color
 * Intensity refers to 'fullness' of a color (saturation), and lightness or darkness of a given color.
 
 Below are some examples of how pre-attentive attributes could be used to distinguish and compare values or objects.
+
 ```{r}
 knitr::include_graphics('figures/PREATTENTIVE_ATTRIBUTES.PNG')
 ```
@@ -100,9 +101,11 @@ In the two graphs below, we have attempted to show a *before* and *after* versio
 
 
 **Before** we've applied data visualization basic techniques using default settings, we can hardly see the data, and we certainly cannot tell what the message is or even what to focus on.
+
 ```{r }
 knitr::include_graphics('figures/market_share_left.png')
 ```
+
 * Too many border and axis lines, and the gridlines actually *hide* the lines representing the data
 * Too many Y-axis labels, the color is too dark and/or lines are too thick, all draw our attention away from the data and increase cognitive load
 * Color is used to differentiate the lines, and they are even color-coded with the legend, although they each have bright colors so it isn't clear what to focus on
@@ -111,9 +114,11 @@ knitr::include_graphics('figures/market_share_left.png')
 
 
 **After** we've applied data visualization basic techniques, we can clearly tell what the message from the title and color choices. The axis amounts and other state's information is visible but given less emphasis with gray or muted color.
+
 ```{r }
 knitr::include_graphics('figures/market_share_right.png')
 ```
+
 * No many gridlines, border or axis lines. We don't miss them as they leave the data to focus on
 * Fewer Y-axis labels; still allowing for reference for the lines
 * Color is used to differentiate the lines, but muted tones for other states and darker for the focus state.
