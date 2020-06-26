@@ -4,6 +4,8 @@ When we create data visualizations to present quantitative information, instead 
 
 ## Who is the audience?
 
+If an image is displayed in an empty room, is it ever seen? An audience is a critical component in the creation of a data visualization. Without them, the image does not really exist at all. By the same token, a different audience may require a different sort of visual representation. Without a reasonable consideration of the consumers of our work, it may as well not exist. To properly reflect on our audience, we ask some basic questions.
+
 ### What is their role? What is their background?
 
 Actuaries can use different kinds of visualizations to communicate actuarial findings and recommendations to various groups such as other actuaries, regulators, underwriters, brokers, executives and many more. A common pitfall is that we tend to generalize the target audience group to "internal and external stakeholders" or "anyone who may be interested" [@Knaflic]. These generic ("internal or external") groups include audiences with different roles and backgrounds. 
