@@ -13,7 +13,7 @@ Two techniques described in this section are:
 * **Accentuating** to highlight what is crucial
 
 
-## It is Important to Declutter
+## The Importance of Decluttering
 
 Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphicss tend to be overly busy. One must expend the effort to declutter data visualizations to maximize the clarity of the message. Below, we describe a few concepts related to decluttering: cognitive load and data-to-ink ratio.
 
@@ -28,7 +28,7 @@ is a concept discussed in [@Knaflic]. Consuming information takes brain power. A
 is a concept discussed in *The Visual Display of Quantitative Information* [@Tufte2001]. Each dot of 'ink' on the visualization is valuable, and can be used to either display the data or to clutter a visualization. The author should create data visualizations with a focus on using 'ink' to display data in order to convey the message, compared to the amount of 'ink' used for text, lines, borders, or color/shading.
 
 
-### How to Declutter
+## How to Declutter
 
 Remove the following entirely. Alternatively, or use gray font or line color to tone-down the cognitive load of the following:
 
@@ -97,6 +97,7 @@ knitr::include_graphics('figures/PREATTENTIVE_ATTRIBUTES.PNG')
 
 
 ## Before-and-After Example of Data Visualization
+
 In the two graphs below, we have attempted to show a *before* and *after* version of a graph.
 
 
