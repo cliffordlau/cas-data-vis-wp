@@ -9,8 +9,8 @@ knitr::opts_chunk$set(
 In this section we provide some techniques for how to design a data visualization to render a crisp graphic that highlights the message.
 Two techniques described in this section are:
 
-	* **Decluttering** to remove what's not needed, and
-	* **Accentuating** to highlight what is crucial
+* **Decluttering** to remove what's not needed, and
+* **Accentuating** to highlight what is crucial
 
 
 ## It is Important to Declutter
