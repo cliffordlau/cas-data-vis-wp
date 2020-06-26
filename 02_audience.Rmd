@@ -28,4 +28,4 @@ According to Knaflic, the communication mechanism determines how much control th
 
 ### What is the audience supposed to DO with the information?
 
-It's important to remember that after we inform the audience about key insights on a topic, we should guide them to take action(s) to resolve it. We can explicitly state the next steps, provide recommendations, or encourage discussions for situations where the next step is unclear [@Knaflic, 2015]. It is reasonable to include an action statement _within_ the title or visual.
+It's important to remember that after we inform the audience about key insights on a topic, we should guide them to take action(s) to resolve it. We can explicitly state the next steps, provide recommendations, or encourage discussions for situations where the next step is unclear [@Knaflic]. It is reasonable to include an action statement _within_ the title or visual.
