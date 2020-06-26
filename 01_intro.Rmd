@@ -1,6 +1,6 @@
 # Definition of “Data Visualization”
 
-Visualizations are everywhere. Data and information is becoming more accessible all the time. To absorb value from all this data, we must incorporate the concept of "data visualization". Simply, **data visualization = data represented by a visual image**. Some of the most common and basic data vis applications include bar graphs, line graphs, and scatterplots. The general design concepts in this publicaion apply to any type of data visualization in any medium (e.g. software (Excel/Powerpoint), programming languages, and websites).
+Visualizations are everywhere. Data and information are becoming more accessible all the time. To absorb value from all this data, we may leverage the power of "data visualization". Simply: **data visualization = data represented by a visual image**. Some of the most common and basic data visualization applications include bar graphs, line graphs, and scatterplots. The general design concepts in this publicaion apply to any type of data visualization in any medium, e.g. software such as Excel or Powerpoint, programming languages, and websites.
 
 ## Background
 
