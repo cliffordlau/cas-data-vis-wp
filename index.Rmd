@@ -8,7 +8,7 @@ nocite: '@*'
 ---
 
 ::: {custom-style=Abstract}
-**Abstract:** abstracty abstractest
+**Abstract:** This paper summarizes some of the literature on the topic of basic data visualization techniques. We emphasize the importance of knowing the audience, and focusing on what message is intended to be sent to the audience or viewer of the data visualizations. We provide visual examples of graph types and describe when to use the different types for different situations. We identify ways to design visualizations with many decluttering and accentuating techniques. We share some of the basic research on how the human eye and brain work to interpret visual information. We provide a before-and-after example of the basic data visualization techniques, to show how much improvement can be achieved in delivering the intended message.
 :::
 
 :::{custom-style=keywords}
