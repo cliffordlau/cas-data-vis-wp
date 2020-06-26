@@ -44,7 +44,7 @@ Of course there are many others, such as MAPSs to compare states, and BOXPLOT an
 
 Many common visualizations do not actually communicate the message effectively. Some reasons for this include science about how the human eye and brain work, and what is most effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
-* Pies and Donuts - the human eye can not accurately compare angles and area of pie or donut slices. Try stacked bar.
+* Pies and Doughnuts - the human eye can not accurately compare angles and area of pie or doughnut slices. Try stacked bar.
 
 * 3D - due to the perspective, the human eye cannot accurately compare relative values three dimensionally. Try using color.
 

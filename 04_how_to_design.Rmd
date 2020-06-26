@@ -15,7 +15,7 @@ Two techniques described in this section are:
 
 ## The Importance of Decluttering
 
-Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphicss tend to be overly busy. One must expend the effort to declutter data visualizations to maximize the clarity of the message. Below, we describe a few concepts related to decluttering: cognitive load and data-to-ink ratio.
+Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphics tend to be overly busy. One must expend the effort to declutter data visualizations to maximize the clarity of the message. Below, we describe a few concepts related to decluttering: cognitive load and data-to-ink ratio.
 
 
 ### Cognitive Load
@@ -93,7 +93,7 @@ Below are some examples of how pre-attentive attributes could be used to disting
 knitr::include_graphics('figures/PREATTENTIVE_ATTRIBUTES.PNG')
 ```
 		
-* Note that _area, volume, angle, and depth are all omitted from the list of pre-attentive attributes_, since the human eye cannot easily decipher differences in these. This is why we should generally avoid pie, 3D, area, and bubble charts. There are some exceptions. For example, some designers would say it might be ok to use pie charts with only two variables. Some others might say that it is ok to use treemap and bubble charts sparingly, to show generalities rather than precise differentiation between very similar quantities.
+* Note that _area, volume, angle, and depth are all omitted from the list of pre-attentive attributes_, since the human eye cannot easily decipher differences in these. This is why we should generally avoid pie, 3D, area, and bubble charts. There are some exceptions. For example, some designers would say it might be OK to use pie charts with only two variables. Some others might say that it is OK to use treemap and bubble charts sparingly, to show generalities rather than precise differentiation between very similar quantities.
 
 
 ## Before-and-After Example of Data Visualization
