@@ -6,11 +6,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-Now that we have established the audience and the message, it is time to design the visualizations. This section will help identify which forms are best, depending on the data and message. 
+Now that we have established the audience and the message, it is time to design the visualizations. This section will help you identify the best forms for the data and message. 
 
 ## Determine the Best Type of Visualization to Use
 
-Many authors have described which graph to choose depending on the situation and what is intended to be shown. The designer can experiment and decide which type of visualization to use. The guide below should help, although the ultimate judge will be the audience and how well they understand and act on the message. Repeatedly ask yourself: "What is the message?", and decide whether it is clearly delivered. Try creating multiple visualizations for that message, and ask a trusted colleague for feedback about which works best for the intended message.
+Many authors have described how to select the particular graph type that fits the data and message. Using the guide below, you can then experiment and decide which type of visualization to use. Remember, the ultimate judge of the appropriateness of a visual is:  will the audience understand and act on the message? Repeatedly ask yourself: “What is the message?”, and decide whether it is clearly delivered. Try creating multiple visualizations for that message and ask a trusted colleague for feedback about which visualization works best for the intended message.
 
 ### Overview of Main Types of Visuals and Key Uses
 
@@ -34,7 +34,7 @@ SCATTERPLOT
       
 TEXT - when a key single value is all that needs to be communicated. 
 
-TABLE - best used only as a lookup reference table, rather than for communicating a message, since tables get cluttered so easily and don't otherwise send a clear message. However, a heatmap table is a variation of a table with color-intensity-encoded cells to highlight high and low values, and can be used effectively to communicate a trend or relationship.
+TABLE - best used only as a lookup reference, rather than for communicating a message, since tables get cluttered easily and do not otherwise send a clear message. However, a heatmap table is a variation with color-intensity-encoded cells to highlight high and low values and can be used effectively to communicate a trend or relationship.
 
 SMALL MULTIPLES (i.e., Facet, or Trellis charts) - can be used with any type of data visualization, to compare many variables or categories at once, to observe relationships or the correlation of each combination of two categories.
 
@@ -42,7 +42,7 @@ Of course there are many others, such as MAPSs to compare states, and BOXPLOT an
 
 ### Visualizations to Avoid
 
-Many common visualizations do not actually communicate the message effectively. Some reasons for this include science about how the human eye and brain work, and what is most effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
+Many common visualizations do not actually communicate the message effectively. These are less effective due to the science of how the human eye and brain work, and what is most effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
 * Pies and Doughnuts - the human eye can not accurately compare angles and area of pie or doughnut slices. Try stacked bar.
 
@@ -120,7 +120,7 @@ Vertical bar charts are useful for time series graphs where you want to focus on
 knitr::include_graphics('figures/STACKED_VERTICAL_BAR.PNG')
 ```
 
-Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there’s a key category you are focusing on and that it’s positioned as the bottom set of bars as in the example. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
+Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there is a key category of focus, which should be placed as the bottom set of bars. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%.
 Avoid using more than two or three sub-categories within bars, as this may obscure the intended message. 
 
 ```{r }
