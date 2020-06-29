@@ -35,9 +35,9 @@ tbl_policy <- tibble(
 
 ## The Tangibility of Data
 
-Because we interact it with it so often, it may seem as though "data" is tangible. This sense comes via the mode through which we interact with it: a visual representation of data. This visubility comes about from the photons of light emitted by your laptop, the bits of ink on a sheet of paper, or the electric charge stored in a computer's memory. But these things are not actually the real-world elements, they are simply a representation of them. A "policyholder" is not a record in a database and would likely object to being referred to as such! 
+Because we interact with it so often, it may seem as though "data" is tangible. This sense comes from the way we interact with it: a visual representation of data. This image is generated from the photons of light emitted by your laptop, the bits of ink on a sheet of paper, or the electric charge stored in a computer's memory. But these things are not actually the real-world elements, they are simply a representation of them. A "policyholder" is not a record in a database and would likely object to being referred to as such! 
 
-Consider Table \@ref(tab:policy-table). This shows the first ten (of five thousand) records of a list of policyholders. Note that this is only a subset of the potential information which we might display. There could be claims, an address, demographics, marketing touch points, or any number of other characteristics. The data is no less real for being a subset of what we could choose to display.
+Consider Table \@ref(tab:policy-table). This shows the first ten (of five thousand) records of a list of policyholders. Note that this is only a subset of the potential information which we might display. There could be claims, an address, demographics, marketing touch points, or any number of other characteristics. The data is no less real even though we choose to display a subset of it.
 
 ```{r policy-table}
 tbl_policy %>% 
@@ -56,7 +56,7 @@ We are accustomed to thinking of the set of recorded properties of real-world en
 
 ## The visual space
 
-When we create a visualization, we have a fixed space in which to place our data. It will be most useful to think of it as a rectangle, though this is not strictly required. Indeed, spherical coordinates, or certain mapping projections will result in non-rectangular plotting spaces. However, most visualizations may be expressed in this way.
+When we create a visualization, we have a fixed space in which to place our data. It will be most useful to think of it as a rectangle, though this is not strictly required. Indeed, spherical coordinates, or certain mapping projections will result in non-rectangular plotting spaces. However, most visualizations are expressed sthis way.
 
 A rectangular space gives us two dimensions to work with. That is it, just two. We can introduce additional information via attributes like color and shape, but there are only two physical dimensions. Returning to our policy data, we can see one possible representation of the dimensions of the visual space in Figure \@ref(fig:visual-space-empty). There is nothing within the space yet, we must begin by defining its size and scale.
 
@@ -65,7 +65,7 @@ tbl_policy %>%
   ggplot(aes(effective_date, premium))
 ```
 
-We have naturally assumed that time should run along the horizontal, or $x$ axis and that premium should along the vertical, or $y$ axis. There is no requirement that we do so; it is simply a choice that we have made. The fact that it is sensible should not lead us to think that we are adhering to any particular obvious rule. It works, but we would not be violating any natural law by transposing the axes, as shown in Figure \@ref(fig:visual-space-transposed).
+We have naturally assumed that time should run along the horizontal, or $x$ axis and that premium should along the vertical, or $y$ axis. There is no requirement that we do so; it is simply a choice that we have made. Just because it is sensible should not lead us to think that we are adhering to any obvious rule. It works, but we would not be violating any natural law by transposing the axes, as shown in Figure \@ref(fig:visual-space-transposed).
 
 ```{r visual-space-transposed, fig.cap = "Transposing the axes"}
 tbl_policy %>% 
@@ -76,14 +76,14 @@ Take a moment and compare the linear distance available for the effective date i
 
 ## Categorical axes
 
-Physical distance is generally reckoned as coming from the set of real numbers. However, our plotting space is not bound by this. A dimension may be categorical - something which maps to the set of natural numbers - instead. The policy effective month is an obvious candidate for a categorial axis.
+Physical distance is generally reckoned as coming from the set of real numbers. However, our plotting space is not bound by this rule. A dimension may be categorical - something which maps to the set of natural numbers - instead. The policy effective month is an obvious candidate for a categorial axis.
 
 ```{r visual-space-month, fig.cap = "Categorical data along the x-axis"}
 tbl_policy %>% 
   ggplot(aes(month, premium))
 ```
 
-There is often a natural preference for the order categories, but this, too, is something which the analyst must choose. In Figure \@ref(fig:visual-space-month), we have arranged the months in order, but we could have chosen something different. In Figure \@ref(fig:random-month), the months have been randomly sorted.
+There is often a natural preference for orderings categories, but this, too, is something which the analyst must choose. In Figure \@ref(fig:visual-space-month), we arranged the months in date order, but we could have chosen something different. In Figure \@ref(fig:random-month), the months have been randomly sorted.
 
 ```{r random-month, fig.cap = "Months arranged randomly"}
 tbl_policy %>% 
@@ -100,7 +100,7 @@ tbl_policy %>%
 
 ## Mapping 
 
-The figures we have seen so far lack an obvious element: nothing appears in the plotting space. The process of expressing data visually requires a mapping of data to a visual element. We have already mapped two elements: the policy effective date (or the month) and the premium. In this case, we need do nothing more than inform our visual rendering engine what geometric shape to place in the plotting space. In Figure \@ref(fig:visual-space-point), we see the data represented as points. Each point corresponds to a single policyholder.
+The figures so far lack an obvious element: nothing appears in the plotting space. The process of expressing data visually requires a mapping of data to a visual element. We have already mapped two elements: the policy effective date (or month) and premium. In this case, we need do nothing more than inform our visual rendering engine what geometric shape to place in the plotting space. In Figure \@ref(fig:visual-space-point), we see the data represented as points. Each point corresponds to a single policyholder.
 
 ```{r visual-space-point, fig.cap = "A geometric shape as tangible data"}
 tbl_policy %>% 
@@ -108,7 +108,7 @@ tbl_policy %>%
   geom_point()
 ```
 
-Figure \@ref(fig:visual-space-point) contains _more_ information than Table \@ref(tab:policy-table), yet consumes less physical space. One might argue that Table \@ref(tab:policy-table) contains more detail and this is true, to a point. It is valid to say that Table \@ref(tab:policy-table) would allow one to identify the specific premium and policy effective date for the first ten policyholders. If that's what the audience is looking for, you have succeeded in way that Figure \@ref(fig:visual-space-point) has not. However, as we learned in Section \@ref(sec-audience), this is likely not to be what your audience is looking for. What Figure \@ref(fig:visual-space-point) does do is answer the following questions:
+Figure \@ref(fig:visual-space-point) contains _more_ information than Table \@ref(tab:policy-table), yet consumes less physical space. One might argue that Table \@ref(tab:policy-table) contains more detail and this is true, to a point. It is valid to say that Table \@ref(tab:policy-table) allows one to identify the specific premium and policy effective date for the first ten policyholders. If that is what the audience wants, you have succeeded in a way that Figure \@ref(fig:visual-space-point) has not. However, as we learned in Section \@ref(sec-audience), it is unlikely that is what your audience wants. What Figure \@ref(fig:visual-space-point) does is answer the following questions:
 
 * Is the business growing? 
 * Is the business contracting?
