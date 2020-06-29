@@ -1,13 +1,13 @@
 # Conclusion
 
-With these basic principles and examples, one can get started creating impactful sleek, modern data visualizations that will help convey your message effectively.
+With these basic principles and examples, you can start creating impactful, sleek, modern data visualizations that convey your message effectively.
 
-Think about who your audience is, what they know, and what they *need* to know. Keep asking yourself and others **"What's the Message?"** throughout the data visualization design process. Your focus should be on identifying  and displaying those things that best convey the message to your intended audience.
+Think about your audience, what they know, and what they _need_ to know. Keep asking yourself and others **“What’s the Message?”** throughout the data visualization design process. Your focus should be on identifying and displaying those things that best convey the message to your intended audience.
 
-Use the right visualization that matches the type of data and message. Line graphs are good for time series and (smoothed) distributions. Bar graphs have many uses, including comparing values by category, and parts-to-a-whole with stacked bars. Use horizontal bar graphs when the data labels are long, since we read horizontally (not vertically, or on a 45-degree angle).
+Use the visualization that matches the type of data and message. Line graphs are good for time series and (smoothed) distributions. Bar graphs have many uses, including comparing values by category, and parts-to-a-whole with stacked bars. Use horizontal bar graphs when the data labels are long, since we read horizontally (not vertically, or on a 45-degree angle).
 
-Declutter visualizations, by removing extraneous axis lines, tickmarks, borders. Remove everything that doesn't help tell the message, or use gray font or line/bar color to de-emphasize non-essential elements. Let the data itself be the star of the show.
+Declutter visualizations, by removing extraneous axis lines, tickmarks, borders. Remove everything that does not help tell the message, or use gray font or line/bar color to de-emphasize non-essential elements. Let the data itself be the star of the show.
 
-Accentuate the data so that your messages pops out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data and to highlight the message. Use Preattentive Attributes when designing your visualization (use length and relative position in 2D, rather than area and volume, for example). Use Gestalt principles, which reflect the science of how the human eye perceives lines, bars, dots, etc. in space.
+Accentuate the data so your message pops out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data and highlight the message. Use Preattentive Attributes when designing your visualization (use length and relative position in 2D, rather than area and volume, for example). Use Gestalt principles, which reflect the science of how the human eye perceives lines, bars, dots, etc. in space.
 
-Be creative and have fun creating data visualizations that will enlighten your audience and convey your message!
+Be creative and have fun creating data visualizations that enlighten your audience and convey your message!
