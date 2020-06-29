@@ -1,10 +1,10 @@
 # Definition of “Data Visualization”
 
-Visualizations are everywhere. Data and information are becoming more accessible all the time. To absorb value from all this data, we may leverage the power of "data visualization". Simply: **data visualization = data represented by a visual image**. Some of the most common and basic data visualization applications include bar graphs, line graphs, and scatterplots. The general design concepts in this publication apply to any type of data visualization in any medium, e.g. software such as Excel or Powerpoint, programming languages, and websites.
+Visualizations are everywhere. Data and information are becoming more accessible all the time. To absorb value from all this data, we may leverage the power of "data visualization". Simply: **data visualization = data represented by a visual image**. Some of the most common and basic data visualization applications include bar graphs, line graphs, and scatterplots. The general design concepts in this publication apply to any type of data visualization in any medium, e.g. business software such as Excel or PowePpoint, programming languages, data visualization software like Tableau, and websites.
 
 ## Why Do We Need Data Visualization?
 
-With the explosion of data  and tools to analyze it, we need skills to **communicate the message most effectively**. By applying proven techniques, you can create data visualization that maximize your audience's absorption of your intended message(s). 
+With the explosion of data  and tools to analyze it, we need skills to **communicate the message most effectively**. By applying proven techniques, you can create data visualizations that maximize your audience's absorption of your intended message(s). 
 
 Actuaries excel at analyzing data and drawing conclusions from their work. However, visual communication skills (i.e., how to make effective graphs, charts, tables, etc.) are not represented on the CAS exam syllabus, nor are they regularly taught or reinforced. Nevertheless, actuaries must _regularly_ communicate complex patterns, trends, conclusions, ideas, and concepts with each other or non-actuarial business partners. With some knowledge and practice, actuaries can create effective data visualization. 
 
