@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Data Visualization"
-author: "Data Visualization Working Party"
+author: "John Deacon, Annie Fan, Brian Fannin, Jennifer Levine, Keith Quigley, Patrick Yu"
 site: bookdown::bookdown_site
 bibliography: "references.bib"
 link-citations: true
