@@ -11,3 +11,44 @@ Declutter visualizations, by removing extraneous axis lines, tickmarks, borders.
 Accentuate the data so your message pops out for your audience. Draw attention to the most important data using length, width, shape, color, and other techniques to distinguish the data and highlight the message. Use Preattentive Attributes when designing your visualization (use length and relative position in 2D, rather than area and volume, for example). Use Gestalt principles, which reflect the science of how the human eye perceives lines, bars, dots, etc. in space.
 
 Be creative and have fun creating data visualizations that enlighten your audience and convey your message!
+
+# Acknowledgements {-}
+
+This paper comes from the work and discussions of the CAS Data Visualization Working Party. The membership is comprised of the following individuals:
+
+```{r}
+tibble::tibble(
+  member = c(
+    'Damian Bailey'
+  , 'Julian Coleman'
+  , 'John Deacon'
+  , 'Marc-Andre Desrosiers'
+  , 'Chunyang Fan'
+  , 'Brian A. Fannin'
+  , 'Navarun Jain'
+  , 'Benyamin Kosofsky'
+  , 'Clifford Lau'
+  , 'Jennifer Levine' 
+  , 'Khanh Luu'
+  , 'Madeline Main' 
+  , 'Paul Majchrowski'
+  , 'Paul Mayfield'
+  , 'Sameer Nahal'
+  , 'Bradford Nichols'
+  , "Brian O'Reilly"
+  , 'David Payne'
+  , 'Keith Quigley'
+  , 'Tanveer Quraishi'
+  , 'Kyle Reed'
+  , 'Rajesh Sahasrabuddhe'
+  , 'Raymond Tobias'
+  , 'Karthik Tumuluru' 
+  , 'Jeffrey White'
+  , 'Patrick Yu'
+  , 'Arthur Zachary'
+  )
+) %>% 
+  knitr::kable()
+```
+
+
