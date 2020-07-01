@@ -36,7 +36,15 @@ TEXT - when a key single value is all that needs to be communicated.
 
 TABLE - best used only as a lookup reference, rather than for communicating a message, since tables get cluttered easily and do not otherwise send a clear message. However, a heatmap table is a variation with color-intensity-encoded cells to highlight high and low values and can be used effectively to communicate a trend or relationship.
 
-SMALL MULTIPLES (i.e., Facet, or Trellis charts) - can be used with any type of data visualization, to compare many variables or categories at once, to observe relationships or the correlation of each combination of two categories.
+SMALL MULTIPLES  - also called facet, or trellis plots. These exhibits repeat the same plot more than once, with subsets of data in each plot, as demonstrated in Figure \@ref(fig:small-multiple-plot). The plots are placed side by side to facilitate comparison. The subsetting is based on some categorical element like territory, vehicle class, predictor, etc. Small multiples are used to compare data across categories, to observe relationships or the correlation of each combination of two categories.
+
+```{r small-multiple-plot, fig.cap = "Small multiples"}
+mtcars %>% 
+   ggplot(aes(wt, mpg)) + 
+   geom_point() +
+   facet_wrap(~cyl, labeller = label_both, scales = 'free_x') + 
+   labs(x = 'Vehicle weight', y = 'Miles per gallon')
+```
 
 Of course there are many others, such as MAPSs to compare states, and BOXPLOT and VIOLIN charts to show distributions, etc.
 
