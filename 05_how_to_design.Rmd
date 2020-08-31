@@ -64,24 +64,22 @@ We have any tools to draw our viewers attention, and highlight elements that imp
 
 * Continuity - The brain will attempt to enclose things (lines, objects) that are not fully enclosed by a solid line. The brain will 'fill in' a dashed line to perceive it as enclosing something if it can be interpreted that way. The brain may perceive a border to exist when objects are lined up; for example, bars lined up along the x-axis could serve as a graph's x-axis border even if the border isn't shown.
 
-* Connection - This principle is commonly used in line graphs to literally 'connect the dots' for the viewer.
+* Connection - Elements that are visually connected are perceived to be related. This principle is commonly used in line graphs to literally 'connect the dots' for the viewer.
 
 
 ### Pre-attentive Attributes [@Few2012]
 
-The human eye and brain are programmed to perceive a specific set of visual attributes very quickly and with a high rate of accuracy.
+The phrase 'quantitatively perceived' means that the human eye and brain are programmed to perceive a specific set of visual attributes very quickly and with a _high rate of accuracy_ as to the quantity expressed by the visual attribute. Some attributes may be quantitatively perceived generally (e.g. area), but the brain and eye cannot be relied to be accurate compared to other attributes. 
 	
 	
 Attributes of Form
 
 * Length 		- can be quantitatively perceived.
 * Width 		- can be quantitatively perceived, but limited in accuracy.
-* Size  		- can be quantitatively perceived, but limited in accuracy.
+* Area & Volume		- *cannot* be quantitatively perceived.
 * Spatial position 	- can be perceived and contrasted in vertical and horizontal position fairly well, but only in *two* dimensions not three dimensions
 * Shape 		- *cannot* be quantitatively perceived.
-* Orientation in 2D 	- *cannot* be quantitatively perceived.
-* Enclosure 		- *cannot* be quantitatively perceived.
-
+* Location in 2-Dimensions- *cannot* be quantitatively perceived.
 
 Attributes of Color
 
@@ -102,7 +100,7 @@ knitr::include_graphics('figures/PREATTENTIVE_ATTRIBUTES.PNG')
 In the two graphs below, we show a *before* and *after* version of a graph.
 
 
-**Before** we've applied data visualization basic techniques using default settings, we can hardly see the data, and we certainly cannot tell what the message is or even what to focus on.
+**Before we've applied data visualization basic techniques** using default settings, we can hardly see the data, and we certainly cannot tell what the message is or even what to focus on.
 
 ```{r }
 knitr::include_graphics('figures/market_share_left.png')
@@ -115,13 +113,15 @@ knitr::include_graphics('figures/market_share_left.png')
 * The title is long and cumbersome, and we still don't know what the message is
 
 
-**After** we have applied basic data visualization techniques, we can clearly tell what the message from the title and color choices. The axis amounts and other state's information is visible but given less emphasis with gray or muted color.
+
+
+**After we have applied basic data visualization techniques** we can clearly tell what the message is from the title and color choices. The axis amounts and the other states' information is visible but given less emphasis with gray or muted color.
 
 ```{r }
 knitr::include_graphics('figures/market_share_right.png')
 ```
 
-* No gridlines, border, or axis lines. We don't miss them as we can now focus on the data
+* No gridlines, border, or axis lines. 
 * Fewer Y-axis labels; still allowing for reference for the lines
 * Color is used to differentiate the lines, but muted tones for other states and darker for the focus state.
 * The legend is omitted entirely, rather each line is direct-labeled
