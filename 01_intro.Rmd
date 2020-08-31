@@ -8,7 +8,7 @@ With the explosion of data  and tools to analyze it, we need skills to **communi
 
 Actuaries excel at analyzing data and drawing conclusions from their work. However, visual communication skills (i.e., how to make effective graphs, charts, tables, etc.) are not represented on the CAS exam syllabus, nor are they regularly taught or reinforced. Nevertheless, actuaries must _regularly_ communicate complex patterns, trends, conclusions, ideas, and concepts with each other or non-actuarial business partners. With some knowledge and practice, actuaries can create effective data visualization. 
 
-I've always said to myself and others, "We can do the best work with the best data resulting in the best conclusion, but if we can't communicate it effectively, the message is LOST".
+We can do the best work with the best data resulting in the best conclusion, but if we can't communicate it effectively, the message is __lost__.
 
 Many authors have produced books, papers, websites, and blogs on data visualization. We will summarize their general design concepts in this paper. The approach we will take is as follows: 
 
