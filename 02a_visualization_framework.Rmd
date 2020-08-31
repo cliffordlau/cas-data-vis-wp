@@ -58,14 +58,14 @@ We are accustomed to thinking of the set of recorded properties of real-world en
 
 When we create a visualization, we have a fixed space in which to place our data. It will be most useful to think of it as a rectangle, though this is not strictly required. Indeed, spherical coordinates, or certain mapping projections will result in non-rectangular plotting spaces. However, most visualizations are expressed sthis way.
 
-A rectangular space gives us two dimensions to work with. That is it, just two. We can introduce additional information via attributes like color and shape, but there are only two physical dimensions. Returning to our policy data, we can see one possible representation of the dimensions of the visual space in Figure \@ref(fig:visual-space-empty). There is nothing within the space yet, we must begin by defining its size and scale.
+A rectangular space gives us two dimensions to work with. That is it, just two. We can introduce additional information via attributes like color and shape, but there are only two physical dimensions. Returning to our policy data, we can see one possible representation of the dimensions of the visual space in Figure \@ref(fig:visual-space-empty). There is nothing within the space yet; we must begin by defining its size and scale.
 
 ```{r visual-space-empty, fig.cap = "An empty visual space"}
 tbl_policy %>% 
   ggplot(aes(effective_date, premium))
 ```
 
-We have naturally assumed that time should run along the horizontal, or $x$ axis and that premium should along the vertical, or $y$ axis. There is no requirement that we do so; it is simply a choice that we have made. Just because it is sensible should not lead us to think that we are adhering to any obvious rule. It works, but we would not be violating any natural law by transposing the axes, as shown in Figure \@ref(fig:visual-space-transposed).
+We have naturally assumed that time should run along the horizontal, or $x$ axis, and that premium should run along the vertical, or $y$ axis. There is no requirement that we do so; it is simply a choice that we have made. Just because it is sensible should not lead us to think that we are adhering to any obvious rule. It works, but we would not be violating any natural law by transposing the axes, as shown in Figure \@ref(fig:visual-space-transposed).
 
 ```{r visual-space-transposed, fig.cap = "Transposing the axes"}
 tbl_policy %>% 
