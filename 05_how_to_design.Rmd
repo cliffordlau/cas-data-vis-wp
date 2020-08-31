@@ -6,11 +6,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-In this section we provide some techniques for how to design a data visualization to render a crisp graphic that highlights the message.
+In this section we provide some techniques for designing a data visualization to render a crisp graphic that highlights the message.
 Two techniques described in this section are:
 
 * **Decluttering** to remove what's not needed, and
 * **Accentuating** to highlight what is crucial
+
 
 
 ## The Importance of Decluttering
@@ -20,27 +21,27 @@ Clutter is the enemy in a graphic. Lines, colors, fonts, etc. in default graphic
 
 ### Cognitive Load
 
-is a concept discussed in [@Knaflic]. Consuming information takes brain power. A viewer has limits on their short-term working memory. Viewers can only store three to four pieces of information at a time, which means that cluttered and poorly designed data visualizations increase a viewer's 'cognitive load' and reduce what they can retain. The data visualization author must design with the audience's cognitive load in mind. Without this consideration, the message gets lost altogether or takes the audience more time and energy to absorb (i.e. more than they may be willing or able to expend). Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the relevant data and message more clearly. Think "less is more".
+Cognitive load is a concept discussed in [@Knaflic]. Consuming information takes brain power. A viewer has limits on their short-term working memory. Viewers can only store three to four pieces of information at a time, which means that cluttered and poorly designed data visualizations increase a viewer's 'cognitive load' and reduce what they can retain. The data visualization author must design with the audience's cognitive load in mind. Without this consideration, the message gets lost altogether or takes the audience more time and energy to absorb (i.e. more than they may be willing or able to expend). Decluttering reduces cognitive load by minimizing what the brain needs to see and process, which enables the reader to see the relevant data and message more clearly. Think "less is more".
 
 
 ### Data-to-Ink Ratio 
 
-is a concept discussed in *The Visual Display of Quantitative Information* [@Tufte2001]. Each dot of 'ink' on the visualization is valuable, and can be used to either display the data or to clutter a visualization. The author should create data visualizations with a focus on using 'ink' to display data in order to convey the message, compared to the amount of 'ink' used for text, lines, borders, or color/shading.
+Data-to-ink-ratio is a concept discussed in *The Visual Display of Quantitative Information* [@Tufte2001]. Each dot of 'ink' on the visualization is valuable, and can be used to either display the data or to clutter a visualization. The author should create data visualizations with a focus on using 'ink' to display data in order to convey the message, compared to the amount of 'ink' used for text, lines, borders, or color/shading.
 
 
 ## How to Declutter
 
-Remove the following entirely. Alternatively, use gray font or line color to tone-down the cognitive load of the following:
+The following aspects of a graph are relatively easy to declutter:
 
-* Borders - generally not needed and obscure key data ink
-* Axis lines - the eye automatically sees a line created by the vertical or horizontal labels, or bars
-* Gridlines - only keep if they serve a clear purpose
-* Axis tick marks - keep the categorical label but remove the horizontal or vertical line marks '-' themselves
-* Gray color - use for data or text that is not the primary focus of the visualization 
-* Axis names - use shorter yet descriptive names to describe axes
-* Legends - omit legends and label the data directly
+* Borders - delete them since they are generally not needed, and obscure key data ink
+* Axis lines - delete them since the eye automatically sees a line created by the vertical or horizontal labels, or bars
+* Gridlines - keep only if they serve a clear purpose, otherwise delete
+* Axis tick marks - remove the horizontal or vertical line marks '-'
+* Gray color - use for data or text that is not the _primary_ focus of the visualization 
+* Axis names - use concise yet descriptive names to describe axes
 * Titles - combine the title and the message into a single phrase
-		
+
+Other tips to declutter:
 **Legends** are commonly used in graphs. However, the viewer must move their eyes back and forth from the graphed data to the legend, which takes time and increases cognitive load. If possible, place the label describing the data directly adjacent to the data. Apply the same color, weight, line-type, etc. for the text of the data label as used for its data (direct labeling). This approach may not work for all graph types or for all data. For example, if the lines in a graph are crossing each other, then direct labeling might not work effectively. 
 
 **Y-axis labels** should not use vertical text. It is common to see y-axis labels that are oriented at a 90-degree angle from the x-axis, reading upwards. No one naturally reads this way. Vertical orientation is more difficult to read and is a form of cognitive load; at a minimum it slows down the reader's ability to quickly identify the axis. Instead, try arranging the vertical-axis label horizontally at the top left of the axis the way we naturally read, or include the vertical axis label within the graph title or a graph footnote.
