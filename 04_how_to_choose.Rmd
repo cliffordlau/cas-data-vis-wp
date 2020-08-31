@@ -14,6 +14,12 @@ Many authors have described how to select the particular graph type that fits th
 
 ### Examples of the Main Types of Visuals and Key Uses
 
+Simple text is useful when you have one or two numbers to show.
+
+```{r }
+knitr::include_graphics('figures/TEXT.PNG')
+```
+
 LINE
 
 1. Standard Line Graph - Time series and trends, parts-to-a-whole, distribution 
