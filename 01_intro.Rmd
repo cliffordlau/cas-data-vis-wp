@@ -13,5 +13,5 @@ We can do the best work with the best data resulting in the best conclusion, but
 Many authors have produced books, papers, websites, and blogs on data visualization. We will summarize their general design concepts in this paper. The approach we will take is as follows: 
 
 * First, we will focus on the **audience**, those individuals with whom we will be communicating. 
-* Next, we will review some of the basic **visualization types and how to choose** from among them based on your data and your needs.
+* Next, we will review **visualization framework**, and **how to choose the type of visualization** based on your data and your needs.
 * Finally, we will share thoughts about **how to design a visualization** for maximum impact.
