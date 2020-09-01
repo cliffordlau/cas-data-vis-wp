@@ -124,7 +124,6 @@ knitr::include_graphics('figures/USMAP.PNG')
 
 Maps are valuable for displaying geospatial information. One can use intensities of color by state or region to reveal the data value.
 
----------------
 
 SMALL MULTIPLES  - also called facet, or trellis plots. These exhibits repeat the same plot more than once, with subsets of data in each plot, as demonstrated in Figure \@ref(fig:small-multiple-plot). The plots are placed side by side to facilitate comparison. The subsetting is based on some categorical element like territory, vehicle class, predictor, etc. Small multiples are used to compare data across categories, to observe relationships or the correlation of each combination of two categories.
 
@@ -273,4 +272,4 @@ Violin plots provide a truer shape of the distribution than a boxplot.
 knitr::include_graphics('figures/USMAP.PNG')
 ```
 
-Maps are valuable for displaying geospatial information. One can use intensities of color by state or region to reveal the data value.
+Maps are valuable for displaying geospatial information. One can use intensities of color by state or region to represent the data value.
