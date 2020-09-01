@@ -12,7 +12,13 @@ Now that we have established the audience and the message, it is time to design 
 
 Many authors have described how to select the particular graph type that fits the data and message. Using the guide below, you can then experiment and decide which type of visualization to use. Remember, the ultimate judge of the appropriateness of a visual is:  will the audience understand and act on the message? Repeatedly ask yourself: “What is the message?”, and decide whether it is clearly delivered. Try creating multiple visualizations for that message and ask a trusted colleague for feedback about which visualization works best for the intended message.
 
-### Overview of Main Types of Visuals and Key Uses
+### Examples of the Main Types of Visuals and Key Uses
+
+Simple text is useful when you have one or two numbers to show.
+
+```{r }
+knitr::include_graphics('figures/TEXT.PNG')
+```
 
 LINE
 
@@ -46,7 +52,7 @@ mtcars %>%
    labs(x = 'Vehicle weight', y = 'Miles per gallon')
 ```
 
-Of course there are many others, such as MAPSs to compare states, and BOXPLOT and VIOLIN charts to show distributions, etc.
+Of course there are many others, such as maps to compare states, and b and boxplot and violin charts to show distributions, etc.
 
 ### Visualizations to Avoid
 
