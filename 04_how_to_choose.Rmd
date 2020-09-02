@@ -10,89 +10,101 @@ Now that we have established the audience and the message, it is time to design 
 
 ## Determine the Best Type of Visualization to Use
 
-Many authors have described how to select the particular graph type that fits the data and message. Using the guide below, you can then experiment and decide which type of visualization to use. Remember, the **ultimate judge of the appropriateness of a visual is: how effectively does the audience understand and act on the message**? Repeatedly ask yourself: “What is the message?”, and decide whether it is clearly delivered. Try creating multiple visualizations for that message and ask a trusted colleague for feedback about which visualization works best for the intended message.
+Authors such as [@Yau] have described how to select the particular graph type that fits the data and message. Using the guide below, you can then experiment and decide which type of visualization to use. Remember that the ultimate judge of the appropriateness of a visual is:  will the audience understand and act on the message? Repeatedly ask yourself: “What is the message?”, and decide whether it is clearly delivered. Try creating multiple visualizations for that message and ask a trusted colleague for feedback about which visualization works best for the intended message.
 
-### Examples of the Main Types of Visuals and Key Uses
+## Examples of the Main Types of Visuals and Key Uses
 
-Simple text is useful when you have one or two numbers to show.
+### Text
+
+There is no need to introduce geometric abstraction, when only a few key figures are involved. Simple text will suffice when you have one or two numbers to show.
 
 ```{r }
 knitr::include_graphics('figures/TEXT.PNG')
 ```
 
+### Tables
+
+Similarly, a simple table may be ideal when the data is simple and the user is interested in looking up precise values. 
 
 ```{r }
 knitr::include_graphics('figures/TABLE.PNG')
 ```
 
-A simple table is best used only as a lookup reference table and not for communicating larger messages. For any type of message conveyed in a table, try a heatmap table as shown next.
+Visualization may be introduced to communicate larger messages. For example, one may add color to the table. The hue is mapped to particular attributes of the data in order to emphasize relative importance --- low and high values --- or some other message. Because of their similarity to weather visualizatoin, these exhibits are commonly referred to as "heatmaps".
 
 ```{r }
 knitr::include_graphics('figures/HEATMAP.PNG')
 ```
 
-A heatmap table is a variation with color-intensity-encoded cells to highlight high and low values and can be used effectively to communicate a trend or relationship.
+### Line
 
+Line graphs imply continuous data or a connection between the points. Line graphs can be augmented with a shaded range or confidence interval around the observations, or a model fit to the data. A basic line graph, like the one shown in Figure \@ref(fig:standard-line-graph) are best used with time series and trends. They are also well suited to display of a deviation relationship such as a difference from plan. In a smoothed form, line graphs are familiar to actuarial students as expressing probability distributions.
 
-```{r }
+```{r standard-line-graph, fig.cap = "A standard line graph"}
 knitr::include_graphics('figures/LINE.PNG')
 ```
 
-Line graphs imply continuous data or a connection between the points. Line graphs can include a shaded range or confidence interval around an average.
+Sparklines are line graphs which are presented in a minimalist fashion, often included as a column in a table of other information, as shown in Figure \@ref(fig:sparkline). This can be valuable for seeing trends at-a-glance or highlighting minimum and maximum values.
 
-Line graphs are best for:
-
-   * Time series
-   * Combining a deviation relationship (such as a difference from plan)
-   * Viewing a (smoothed) cumulative distribution.
-
-
-**SPARKLINES
-```{r }
+```{r sparkline, fig.cap = "A data table with sparklines"}
 knitr::include_graphics('figures/Sparklines.PNG')
 ```
 
-Sparklines can be valuable for seeing trends at-a-glance or highlighting minimum and maximum values. Typically used in a minimalist way.
+A slopegraph is composed by mapping categorical data to the x-axis. The categories may originate from something quantitative like a point in time, or they could relate to regions, or rating classes. There are typically only two categories and rarely more than three. Slopegraphs can be useful when showing data for just two time periods and when you want to easily show relative decreases or increases among several categories. These graphs can get cluttered, and should be avoided when there are too many overlapping lines.
 
 ```{r }
 knitr::include_graphics('figures/SLOPEGRAPH.PNG')
 ```
               
-Slopegraphs can be useful when showing data for just two time periods and when you want to easily show relative decreases or increases among several categories. These graphs can get cluttered, and should be avoided when there are too many overlapping lines.
+### Bar 
+
+Similar to a slopegraph, a bar chart also maps categorical data to the x-axis. However, the treatment is such that more than a few columns may be displayed. 
+
+<!-- 1. Value comparison, or ranking -->
+<!-- 2. Parts-to-a-whole, including stacked bars to show shares of sub-categories within a categorical variable -->
+<!-- 3. Histogram (i.e., distribution of values) -->
+
+Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
 
 ```{r }
 knitr::include_graphics('figures/VERTICAL_BAR.PNG')
 ```
 
-Vertical bar charts are useful for time series graphs where you want to focus on the comparison between values of individual points, rather than on the overall pattern of values over time. Vertical bar charts can also be useful in showing deviation relationships (e.g., difference from plan) at a point in time. 
+Additional categorical data may be introduced with a stacked vertical bar chart. Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there is a key category of focus, which should be placed as the bottom set of bars. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%. Avoid using more than two or three sub-categories within bars, as this may obscure the intended message. 
 
 ```{r }
 knitr::include_graphics('figures/STACKED_VERTICAL_BAR.PNG')
 ```
 
-Use caution in using stacked vertical bar charts, as it can be hard to compare sizes or values, especially if the baseline for a given 'stack' is not the same. Thus, stacked vertical bar charts are best if there is a key category of focus, which should be placed as the bottom set of bars. Consider using absolute numbers in stacked vertical bar charts or using stacked vertical bars that each sum to 100%. Avoid using more than two or three sub-categories within bars, as this may obscure the intended message. 
-
-```{r }
-knitr::include_graphics('figures/HISTOGRAM.PNG')
-```
-
-A histogram is a vertical bar chart used to display a distribution.
+Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
 
 ```{r }
 knitr::include_graphics('figures/HORIZONTAL_BAR.PNG')
 ```
 
-Horizontal bar charts are great for displaying categorical data, especially if using the categories to rank the values. Horizontal bars are also useful for long category names that won't fit as well for a vertical bar format.
+As with vertical bar charts, a horizontal bar chart may use stacking to encode categorical data along a different (data) dimension.
 
 ```{r }
 knitr::include_graphics('figures/STACKED_HORIZONTAL_BAR.PNG')
 ```
 
+A histogram is a vertical bar chart used to display an empirical, or sample distribution.
+
+```{r }
+knitr::include_graphics('figures/HISTOGRAM.PNG')
+```
+
+Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
+
 ```{r }
 knitr::include_graphics('figures/WATERFALL.PNG')
 ```
 
-Waterfall charts are useful to show a starting point, incremental increases and/or decreases, and an ending point.  
+### Scatterplot
+
+1. Exploratory data analysis
+2. Correlation between two variables
+3. Time series
 
 ```{r }
 knitr::include_graphics('figures/SCATTERPLOT.PNG')
@@ -106,26 +118,34 @@ knitr::include_graphics('figures/DOT_PLOT.PNG')
 
 Dot plots are useful for nominal comparative relationships when you want to highlight differences that would be hard to see in a bar graph that has zero as the baseline. Dot plots are also useful for showing time series data not representing consistent intervals of time.
 
-```{r }
-knitr::include_graphics('figures/BOXPLOT_IRIS.PNG')
-```
 
-Box & whisker plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box & whisker plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is needed.
+### Maps
 
-```{r }
-knitr::include_graphics('figures/VIOLIN_IRIS.PNG')
-```
-
-Violin plots provide a truer shape of the distribution than a boxplot.
+Maps are valuable for displaying geospatial information. One can use intensities of color by state or region to encode data. Maps are often preferred to tables which convey the same data. This leverages the fact that the viewer approaches a map with prior knowledge of the identity of the shapes being displayed. This permits the viewer to scan in any direction to "look up" the value associated with a particular territory. If the _order_ of data is being emphasized, then one should consider a table or a bar chart.
 
 ```{r }
 knitr::include_graphics('figures/USMAP.PNG')
 ```
 
-Maps are valuable for displaying geospatial information. One can use intensities of color by state or region to reveal the data value.
+### Hybrid types
 
+Some displays combine point and lines into hybrid shapes. Box plots and violin plots are two such examples. They are both used to display central tendencies of sample data, while also indicating outliers and other elements of the observed distribution.
 
-SMALL MULTIPLES  - also called facet, or trellis plots. These exhibits repeat the same plot more than once, with subsets of data in each plot, as demonstrated in Figure \@ref(fig:small-multiple-plot). The plots are placed side by side to facilitate comparison. The subsetting is based on some categorical element like territory, vehicle class, predictor, etc. Small multiples are used to compare data across categories, to observe relationships or the correlation of each combination of two categories.
+Box plots display a large amount of distribution data in a single graphic: the highest and lowest values, the spread of values from highest to lowest, the median, and the 25th and 75th percentiles. Use box plots with care as percentiles are not readily understood by all audiences; consider simplifying to only show what is needed.
+
+```{r }
+knitr::include_graphics('figures/BOXPLOT_IRIS.PNG')
+```
+
+A violin plot shows more detail than a boxplot, similar to the difference between a density plot and a histogram.
+
+```{r }
+knitr::include_graphics('figures/VIOLIN_IRIS.PNG')
+```
+
+### Small multiples
+
+Small multiples may also be called facet, or trellis plots. These exhibits repeat the same plot more than once, with subsets of data in each plot, as demonstrated in Figure \@ref(fig:small-multiple-plot). The plots are placed side by side to facilitate comparison. The subsetting is based on some categorical element like territory, vehicle class, predictor, etc. Small multiples are used to compare data across categories, to observe relationships or the correlation of each combination of two categories.
 
 ```{r small-multiple-plot, fig.cap = "Small multiples"}
 mtcars %>% 
@@ -135,9 +155,7 @@ mtcars %>%
    labs(x = 'Vehicle weight', y = 'Miles per gallon')
 ```
 
-Of course there are many others, such as maps to compare states, and b and boxplot and violin charts to show distributions, etc.
-
-### Visualizations to Avoid
+## Visualizations to Avoid
 
 Many common visualizations do not actually communicate the message effectively. These are less effective due to the science of how the human eye and brain work, and what is most effectively deciphered. Below are some common graph types, with a brief description of why they should be avoided.
 
@@ -149,7 +167,6 @@ Many common visualizations do not actually communicate the message effectively. 
 
 * Double-Axis - too much for a reader to process quickly and effectively. Try separating the graphs vertically with the same x-axis and different y-axes.
 
-     
 ### Questions to help determine which type of visualization to use:
 
 *	What is the **simplest** way the information can be conveyed?
@@ -157,4 +174,3 @@ Many common visualizations do not actually communicate the message effectively. 
 *	Have I tried other ways of displaying the information?
 
 *	Have I shown a draft visualization to another person for feedback on how effectively it conveys the message?
-
